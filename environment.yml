@@ -1,0 +1,8 @@
+name: neuromm26-baseline
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - pip
+  - numpy>=1.26
+  - pyyaml>=6.0

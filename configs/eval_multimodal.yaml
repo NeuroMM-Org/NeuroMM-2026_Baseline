@@ -1,0 +1,9 @@
+default_config: configs/default.yaml
+experiment_name: neuromm26_eval_multimodal
+model:
+  name: multimodal/eeg_video_fusion
+  task_type: eeg_video_fusion
+dataset:
+  load_video_feature: true
+  require_video_feature: true
+  video_feature_name: clip

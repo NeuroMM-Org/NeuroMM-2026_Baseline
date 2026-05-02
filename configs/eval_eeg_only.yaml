@@ -1,0 +1,5 @@
+default_config: configs/default.yaml
+experiment_name: neuromm26_eval_eeg_only
+model:
+  name: baseline/eeg
+  task_type: eeg_only

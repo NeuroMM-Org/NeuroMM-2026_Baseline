@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+*.egg
+
+# venvs
+venv/
+.venv/
+env/
+ENV/
+
+# editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# data + results — large, fetched separately from HuggingFace
+neuromm26_datasets/processed/
+neuromm26_datasets/raw/
+neuromm26_results/
+/models/
+
+# .env / secrets
+.env
+.env.local
+*.local
+
+# logs / temp
+*.log
+.tmp/
+nohup.out
+.claude/

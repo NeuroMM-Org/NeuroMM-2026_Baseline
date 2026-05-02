@@ -1,0 +1,2 @@
+default_config: configs/default.yaml
+experiment_name: neuromm26_train

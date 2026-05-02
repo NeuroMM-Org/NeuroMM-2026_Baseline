@@ -1,0 +1,49 @@
+seed: 42
+experiment_name: neuromm26_baseline
+paths:
+  dataset_root: neuromm26_datasets
+  output_root: neuromm26_results
+  model_root: models
+  eeg_feature_root: neuromm26_datasets/processed/features/eeg
+  video_feature_root: neuromm26_datasets/processed/features
+runtime:
+  device: cuda
+  num_workers: 0
+  pin_memory: false
+  preload_in_memory: true
+  save_predictions: true
+  save_checkpoints: true
+model:
+  name: baseline/eeg
+  task_type: eeg_only
+  eeg_backbone: resnet18
+  eeg_pretrained: false
+  eeg_temporal_pool: 10
+  eeg_dropout: 0.2
+  eeg_embedding_dim: 512
+  video_embedding_dim: 256
+  fusion_hidden_dim: 256
+  classifier_dropout: 0.2
+dataset:
+  train_split: train
+  val_split: val
+  test_split: test
+  eeg_feature_name: eeg
+  video_feature_name: clip
+  load_eeg: true
+  load_video_feature: false
+  require_video_feature: false
+  eeg_shape: [26, 2000]
+train:
+  epochs: 10
+  batch_size: 32
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  positive_class_weight: null
+  max_grad_norm: null
+  log_interval: 20
+  checkpoint_name: best.pt
+eval:
+  batch_size: 64
+  checkpoint_path: null
+  split: val
