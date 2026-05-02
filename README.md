@@ -7,7 +7,7 @@ The challenge has three tasks evaluated on a private held-out test set:
 | Task | Modalities | Type | Selection metric |
 |---|---|---|---|
 | **Task 1** | EEG only | Binary spike vs non-spike | AUPRC |
-| **Task 2** | EEG + Video | Binary spike classification | AUPRC |
+| **Task 2** | EEG + Video | Binary spike vs non-spike | AUPRC |
 | **Task 3** | EEG + Video | 5-class seizure subtype on positives only | weighted F1 |
 
 This repository contains:
@@ -15,7 +15,7 @@ This repository contains:
 - 30+ EEG encoders (TCN, EEGNet, ResNet/ConvNeXt/EfficientNet/MobileNet/DenseNet/ViT, LSTM/GRU, ACTNet, LMDA, plus self-supervised CBraMod / LaBraM / EEG-DINO)
 - Multi-modal late-fusion models (binary and 5-class)
 - 7 video feature backbones via the same extractor (CLIP, VideoMAE-base/large, DINOv2-base/large, SigLIP, TimeSformer)
-- Audio (OpenSMILE) and face (OpenFace skeleton) feature extractors
+<!-- - Audio (OpenSMILE) and face (OpenFace skeleton) feature extractors -->
 - Trainers + per-epoch logger + per-seed mean/std aggregator
 
 ---
