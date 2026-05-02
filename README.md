@@ -253,11 +253,15 @@ neuromm26_datasets/annotations/     # train+val manifest (no test)
 ## Citation
 
 ```bibtex
-@misc{neuromm2026baseline,
-  title  = {NeuroMM-2026 Baseline},
-  author = {NeuroMM-2026 Organizers},
-  year   = {2026},
-  url    = {https://github.com/NeuroMM-Org/NeuroMM-2026_Baseline},
+@article{lin2025eeg,
+  title={An EEG dataset for interictal epileptiform discharge with spatial distribution information},
+  author={Lin, Nan and Zheng, Mengxuan and Li, Lian and Hu, Peng and Gao, Weifang and Sun, Heyang and Xu, Chang and Yuan, Gonglin and Liang, Zi and Dong, Yisu and others},
+  journal={Scientific Data},
+  volume={12},
+  number={1},
+  pages={229},
+  year={2025},
+  publisher={Nature Publishing Group UK London}
 }
 ```
 
