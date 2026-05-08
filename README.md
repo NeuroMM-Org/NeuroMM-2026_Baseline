@@ -250,6 +250,12 @@ neuromm26_datasets/annotations/     # train+val manifest (no test)
 
 ---
 
+## Optional — explore the codebase with Understand Anything
+
+This repository ships a pre-built knowledge graph under `.understand-anything/`. [Understand Anything](https://github.com/Lum1104/Understand-Anything) is an AI-agent skill that turns the graph into an interactive web dashboard, a guided tour through the architecture, and a chat interface for asking questions about the code. It works across multiple AI coding agents (Claude Code, Copilot CLI, Gemini CLI, …) — see the Understand Anything README for install and usage in your environment.
+
+---
+
 ## Citation
 
 ```bibtex

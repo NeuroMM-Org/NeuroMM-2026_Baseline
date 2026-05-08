@@ -1,0 +1,5895 @@
+{
+  "version": "1.0.0",
+  "gitCommitHash": "cc27df4ee49615f55c56654ff745539772260fd7",
+  "generatedAt": "2026-05-08T08:14:40.061Z",
+  "files": {
+    ".env.example": {
+      "filePath": ".env.example",
+      "contentHash": "1ae7410733cc586b1bc67bb7dd5e2ed30f4f963c1361b7b7cddc20b51cbec07a",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 9,
+      "hasStructuralAnalysis": true
+    },
+    "README.md": {
+      "filePath": "README.md",
+      "contentHash": "ccb36e583befca08823a62e10213440df632140de896453f3bda3981b7065fa1",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 272,
+      "hasStructuralAnalysis": true
+    },
+    "baseline_results.md": {
+      "filePath": "baseline_results.md",
+      "contentHash": "d22318709ad5a7a962fb8de586866123e9034f8f58b4aa1e8d91745944ac3714",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 672,
+      "hasStructuralAnalysis": true
+    },
+    "configs/default.yaml": {
+      "filePath": "configs/default.yaml",
+      "contentHash": "575f365a90b7a62c96807aba7d0f63087e6d69b09cee1e99e4e49b00219d18ee",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 50,
+      "hasStructuralAnalysis": true
+    },
+    "configs/eval.yaml": {
+      "filePath": "configs/eval.yaml",
+      "contentHash": "32f9912861eb2750ba479bb82f0d24b95d16d84f70f54a0dfb2f6d5c09f7b920",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 3,
+      "hasStructuralAnalysis": true
+    },
+    "configs/eval_eeg_only.yaml": {
+      "filePath": "configs/eval_eeg_only.yaml",
+      "contentHash": "8ab36f698a8a2e554191b389af136a239f3611a404ba469403af079a63fca16c",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 6,
+      "hasStructuralAnalysis": true
+    },
+    "configs/eval_multimodal.yaml": {
+      "filePath": "configs/eval_multimodal.yaml",
+      "contentHash": "971b8a3e3b45c9060f586a95deb99859c653c67e1301b2c9f9e984514a9dcf82",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 10,
+      "hasStructuralAnalysis": true
+    },
+    "configs/feature_extract.yaml": {
+      "filePath": "configs/feature_extract.yaml",
+      "contentHash": "7198fd6e19fd1dd995a608e67d4958b6bfe7a870df49daf7d20fc63bf8f1d2de",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 3,
+      "hasStructuralAnalysis": true
+    },
+    "configs/train.yaml": {
+      "filePath": "configs/train.yaml",
+      "contentHash": "41da20e9d822142a8d4f8f99873791b260d6ee911e66ecc3cc763164ce15236f",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 3,
+      "hasStructuralAnalysis": true
+    },
+    "configs/train_eeg_only.yaml": {
+      "filePath": "configs/train_eeg_only.yaml",
+      "contentHash": "4342da5b3c58a8f90fa3b6a1e5f2373782005afe4a3918463a54ce741322292c",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 6,
+      "hasStructuralAnalysis": true
+    },
+    "configs/train_multimodal.yaml": {
+      "filePath": "configs/train_multimodal.yaml",
+      "contentHash": "c4724c1c60f6692b2bf2940ce324715a9fecdbaef7c72da168ef169f7aedcb45",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 10,
+      "hasStructuralAnalysis": true
+    },
+    "docs/data_format.md": {
+      "filePath": "docs/data_format.md",
+      "contentHash": "346235f95f8703d17137017a52fb23c74517fe8394bdafc5bc2f7fc4c990428b",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 29,
+      "hasStructuralAnalysis": true
+    },
+    "docs/evaluation.md": {
+      "filePath": "docs/evaluation.md",
+      "contentHash": "40fd4e3fe0e00b02ca6493d500bcff355385f595bc36a9f25897f716619572fe",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 4,
+      "hasStructuralAnalysis": true
+    },
+    "docs/project_structure.md": {
+      "filePath": "docs/project_structure.md",
+      "contentHash": "cb17b24439a8cba7000cad279d3213b099cf7ca0932ebee5bd3781de951af6a4",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 14,
+      "hasStructuralAnalysis": true
+    },
+    "docs/training.md": {
+      "filePath": "docs/training.md",
+      "contentHash": "45eb94290c081b1d4ed39aa925e44c0ecf2000603637d2ba2c9d291cb58e2874",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 4,
+      "hasStructuralAnalysis": true
+    },
+    "environment.yml": {
+      "filePath": "environment.yml",
+      "contentHash": "72db78af90afe2b424c28bf68e53c2ef428bf8aa2a18066d4cda142b06b30a63",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 9,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/__init__.py": {
+      "filePath": "neuromm26_baseline/__init__.py",
+      "contentHash": "bf7c79a01931c0a24464bbfad90a9298fde2a8d28bb5982b5997c7f1e1739508",
+      "functions": [],
+      "classes": [],
+      "imports": [
+        {
+          "source": ".version",
+          "specifiers": [
+            "__version__"
+          ]
+        }
+      ],
+      "exports": [],
+      "totalLines": 4,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/datasets/__init__.py": {
+      "filePath": "neuromm26_baseline/datasets/__init__.py",
+      "contentHash": "29a3cb7659bce8fa83a6f95694a8ec225d6c7ddcf1caf545b814a2d575548492",
+      "functions": [],
+      "classes": [],
+      "imports": [
+        {
+          "source": ".eeg_feature_dataset",
+          "specifiers": [
+            "EEGFeatureDataset"
+          ]
+        },
+        {
+          "source": ".multimodal_feature_dataset",
+          "specifiers": [
+            "NeuroMMMultimodalFeatureDataset"
+          ]
+        },
+        {
+          "source": ".neuromm_dataset",
+          "specifiers": [
+            "NeuroMMDataset"
+          ]
+        }
+      ],
+      "exports": [],
+      "totalLines": 12,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/datasets/base_dataset.py": {
+      "filePath": "neuromm26_baseline/datasets/base_dataset.py",
+      "contentHash": "208ec8e55682f216d0bf8dd47a065e803322b9c31dcee08fd1f3b44162f4bbd3",
+      "functions": [],
+      "classes": [
+        {
+          "name": "BaseDataset",
+          "methods": [
+            "__len__",
+            "__getitem__"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 6
+        }
+      ],
+      "imports": [],
+      "exports": [
+        "BaseDataset"
+      ],
+      "totalLines": 10,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/datasets/collate_fn.py": {
+      "filePath": "neuromm26_baseline/datasets/collate_fn.py",
+      "contentHash": "25a3dc068839500657d77248424ebc882e7091c6a9ec381b1a871e68992ee281",
+      "functions": [
+        {
+          "name": "neuromm_collate",
+          "params": [
+            "batch"
+          ],
+          "exported": true,
+          "lineCount": 11
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "torch",
+          "specifiers": [
+            "torch"
+          ]
+        }
+      ],
+      "exports": [
+        "neuromm_collate"
+      ],
+      "totalLines": 19,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/datasets/eeg_feature_dataset.py": {
+      "filePath": "neuromm26_baseline/datasets/eeg_feature_dataset.py",
+      "contentHash": "d5979fe68e0148d332aed9d985559ba7f50d76cf7c0bfa0694d558940254f28a",
+      "functions": [],
+      "classes": [
+        {
+          "name": "EEGFeatureDataset",
+          "methods": [
+            "__init__",
+            "__len__",
+            "_load_records",
+            "_parse_label",
+            "_normalize",
+            "_pad_or_crop",
+            "_load_eeg_tensor",
+            "__getitem__"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 84
+        }
+      ],
+      "imports": [
+        {
+          "source": "csv",
+          "specifiers": [
+            "csv"
+          ]
+        },
+        {
+          "source": "pathlib",
+          "specifiers": [
+            "Path"
+          ]
+        },
+        {
+          "source": "typing",
+          "specifiers": [
+            "Any"
+          ]
+        },
+        {
+          "source": "numpy",
+          "specifiers": [
+            "np"
+          ]
+        },
+        {
+          "source": "torch",
+          "specifiers": [
+            "torch"
+          ]
+        },
+        {
+          "source": "torch.utils.data",
+          "specifiers": [
+            "Dataset"
+          ]
+        },
+        {
+          "source": "tqdm",
+          "specifiers": [
+            "tqdm"
+          ]
+        }
+      ],
+      "exports": [
+        "EEGFeatureDataset"
+      ],
+      "totalLines": 99,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/datasets/multimodal_feature_dataset.py": {
+      "filePath": "neuromm26_baseline/datasets/multimodal_feature_dataset.py",
+      "contentHash": "853457432042889015755b94ae8c3961a92b3d2b850012ad96e86b085d14b8d8",
+      "functions": [],
+      "classes": [
+        {
+          "name": "NeuroMMMultimodalFeatureDataset",
+          "methods": [
+            "__init__",
+            "__len__",
+            "_load_video_tensor",
+            "__getitem__"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 55
+        }
+      ],
+      "imports": [
+        {
+          "source": "pathlib",
+          "specifiers": [
+            "Path"
+          ]
+        },
+        {
+          "source": "typing",
+          "specifiers": [
+            "Any"
+          ]
+        },
+        {
+          "source": "numpy",
+          "specifiers": [
+            "np"
+          ]
+        },
+        {
+          "source": "torch",
+          "specifiers": [
+            "torch"
+          ]
+        },
+        {
+          "source": "torch.utils.data",
+          "specifiers": [
+            "Dataset"
+          ]
+        },
+        {
+          "source": "tqdm",
+          "specifiers": [
+            "tqdm"
+          ]
+        },
+        {
+          "source": ".eeg_feature_dataset",
+          "specifiers": [
+            "EEGFeatureDataset"
+          ]
+        }
+      ],
+      "exports": [
+        "NeuroMMMultimodalFeatureDataset"
+      ],
+      "totalLines": 71,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/datasets/neuromm_dataset.py": {
+      "filePath": "neuromm26_baseline/datasets/neuromm_dataset.py",
+      "contentHash": "ce755a5bc366df50690a89d3f4e328291b4e3710f0bc7c130e35de8ca9c53564",
+      "functions": [],
+      "classes": [
+        {
+          "name": "NeuroMMDataset",
+          "methods": [
+            "__init__",
+            "__len__",
+            "_resolve_eeg_path",
+            "_resolve_video_feature_path",
+            "__getitem__"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 75
+        }
+      ],
+      "imports": [
+        {
+          "source": "csv",
+          "specifiers": [
+            "csv"
+          ]
+        },
+        {
+          "source": "pathlib",
+          "specifiers": [
+            "Path"
+          ]
+        },
+        {
+          "source": "typing",
+          "specifiers": [
+            "Any"
+          ]
+        },
+        {
+          "source": "numpy",
+          "specifiers": [
+            "np"
+          ]
+        },
+        {
+          "source": ".base_dataset",
+          "specifiers": [
+            "BaseDataset"
+          ]
+        }
+      ],
+      "exports": [
+        "NeuroMMDataset"
+      ],
+      "totalLines": 89,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/datasets/sampler.py": {
+      "filePath": "neuromm26_baseline/datasets/sampler.py",
+      "contentHash": "be8d05b987ec6c115541e3c421a5dde4413f29d56129070f83b7b1b03b2145ae",
+      "functions": [
+        {
+          "name": "build_sampler",
+          "params": [
+            "dataset",
+            "shuffle"
+          ],
+          "exported": true,
+          "lineCount": 2
+        }
+      ],
+      "classes": [],
+      "imports": [],
+      "exports": [
+        "build_sampler"
+      ],
+      "totalLines": 6,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/datasets/task3_datasets.py": {
+      "filePath": "neuromm26_baseline/datasets/task3_datasets.py",
+      "contentHash": "509bd5cdca2aa15f51a558cf2462ee92abeb110a86dd1f2338afdf07fbf47238",
+      "functions": [
+        {
+          "name": "_is_positive_row",
+          "params": [
+            "row"
+          ],
+          "returnType": "bool",
+          "exported": true,
+          "lineCount": 8
+        },
+        {
+          "name": "_class_index",
+          "params": [
+            "row"
+          ],
+          "returnType": "int",
+          "exported": true,
+          "lineCount": 3
+        },
+        {
+          "name": "_load_filtered",
+          "params": [
+            "manifest_csv",
+            "split"
+          ],
+          "returnType": "list[dict]",
+          "exported": true,
+          "lineCount": 7
+        }
+      ],
+      "classes": [
+        {
+          "name": "Task3EEGFeatureDataset",
+          "methods": [
+            "__init__",
+            "_normalize",
+            "_pad_or_crop",
+            "_load_eeg_tensor",
+            "__len__",
+            "__getitem__"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 64
+        },
+        {
+          "name": "Task3MultimodalFeatureDataset",
+          "methods": [
+            "__init__",
+            "_load_video_tensor",
+            "__len__",
+            "__getitem__"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 50
+        },
+        {
+          "name": "Task3VideoFeatureDataset",
+          "methods": [
+            "__init__",
+            "__len__",
+            "__getitem__"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 52
+        }
+      ],
+      "imports": [
+        {
+          "source": "csv",
+          "specifiers": [
+            "csv"
+          ]
+        },
+        {
+          "source": "pathlib",
+          "specifiers": [
+            "Path"
+          ]
+        },
+        {
+          "source": "typing",
+          "specifiers": [
+            "Any"
+          ]
+        },
+        {
+          "source": "numpy",
+          "specifiers": [
+            "np"
+          ]
+        },
+        {
+          "source": "torch",
+          "specifiers": [
+            "torch"
+          ]
+        },
+        {
+          "source": "torch.utils.data",
+          "specifiers": [
+            "Dataset"
+          ]
+        },
+        {
+          "source": "tqdm",
+          "specifiers": [
+            "tqdm"
+          ]
+        }
+      ],
+      "exports": [
+        "_is_positive_row",
+        "_class_index",
+        "_load_filtered",
+        "Task3EEGFeatureDataset",
+        "Task3MultimodalFeatureDataset",
+        "Task3VideoFeatureDataset"
+      ],
+      "totalLines": 219,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/datasets/transforms.py": {
+      "filePath": "neuromm26_baseline/datasets/transforms.py",
+      "contentHash": "71daf1f5ac49f81961c04127a86844391e6aefebf3d8c58700dcfbfb100a9bbd",
+      "functions": [
+        {
+          "name": "build_transforms",
+          "params": [
+            "split"
+          ],
+          "exported": true,
+          "lineCount": 2
+        }
+      ],
+      "classes": [],
+      "imports": [],
+      "exports": [
+        "build_transforms"
+      ],
+      "totalLines": 6,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/feature_extract/__init__.py": {
+      "filePath": "neuromm26_baseline/feature_extract/__init__.py",
+      "contentHash": "59799388e699dbee4838ee9954fec2b38edefde0fb253071a24fb8fedd5107ae",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 2,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/feature_extract/check_missing.py": {
+      "filePath": "neuromm26_baseline/feature_extract/check_missing.py",
+      "contentHash": "4a8058e56ecfe61464478be3158558b2e8c4c9ab8e55c72553a26a4353cd5159",
+      "functions": [
+        {
+          "name": "check_missing_features",
+          "params": [
+            "manifest_path"
+          ],
+          "exported": true,
+          "lineCount": 40
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "os",
+          "specifiers": [
+            "os"
+          ]
+        },
+        {
+          "source": "pandas",
+          "specifiers": [
+            "pd"
+          ]
+        }
+      ],
+      "exports": [
+        "check_missing_features"
+      ],
+      "totalLines": 52,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/feature_extract/extract_all_features.py": {
+      "filePath": "neuromm26_baseline/feature_extract/extract_all_features.py",
+      "contentHash": "5dae5b5f1f772ae0e24b82bad8fc548ce90104ed33b5a4785f5b0ea2663c4f92",
+      "functions": [
+        {
+          "name": "extract_all_features",
+          "params": [],
+          "returnType": "None",
+          "exported": true,
+          "lineCount": 2
+        }
+      ],
+      "classes": [],
+      "imports": [],
+      "exports": [
+        "extract_all_features"
+      ],
+      "totalLines": 6,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/feature_extract/extract_audio_features.py": {
+      "filePath": "neuromm26_baseline/feature_extract/extract_audio_features.py",
+      "contentHash": "0abb82b40d71cc40f5b52b632ea8631f11970d39b0f86423d9558a1b94cf7e76",
+      "functions": [
+        {
+          "name": "lazy_import_opensmile",
+          "params": [],
+          "exported": true,
+          "lineCount": 4
+        },
+        {
+          "name": "feature_set_for",
+          "params": [
+            "name"
+          ],
+          "exported": true,
+          "lineCount": 10
+        },
+        {
+          "name": "ensure_audio_wav",
+          "params": [
+            "video_path",
+            "dest_wav",
+            "sample_rate"
+          ],
+          "returnType": "bool",
+          "exported": true,
+          "lineCount": 17
+        },
+        {
+          "name": "main",
+          "params": [],
+          "returnType": "int",
+          "exported": true,
+          "lineCount": 83
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "argparse",
+          "specifiers": [
+            "argparse"
+          ]
+        },
+        {
+          "source": "os",
+          "specifiers": [
+            "os"
+          ]
+        },
+        {
+          "source": "shutil",
+          "specifiers": [
+            "shutil"
+          ]
+        },
+        {
+          "source": "subprocess",
+          "specifiers": [
+            "subprocess"
+          ]
+        },
+        {
+          "source": "tempfile",
+          "specifiers": [
+            "tempfile"
+          ]
+        },
+        {
+          "source": "warnings",
+          "specifiers": [
+            "warnings"
+          ]
+        },
+        {
+          "source": "pathlib",
+          "specifiers": [
+            "Path"
+          ]
+        },
+        {
+          "source": "numpy",
+          "specifiers": [
+            "np"
+          ]
+        },
+        {
+          "source": "pandas",
+          "specifiers": [
+            "pd"
+          ]
+        },
+        {
+          "source": "tqdm",
+          "specifiers": [
+            "tqdm"
+          ]
+        }
+      ],
+      "exports": [
+        "lazy_import_opensmile",
+        "feature_set_for",
+        "ensure_audio_wav",
+        "main"
+      ],
+      "totalLines": 159,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/feature_extract/extract_ecg_features.py": {
+      "filePath": "neuromm26_baseline/feature_extract/extract_ecg_features.py",
+      "contentHash": "1376051a4b8500d864007e2383a40a763a11bcf38e065ffe621fe69fb3e9e391",
+      "functions": [
+        {
+          "name": "extract_ecg_features",
+          "params": [
+            "input_path",
+            "output_path"
+          ],
+          "returnType": "None",
+          "exported": true,
+          "lineCount": 2
+        }
+      ],
+      "classes": [],
+      "imports": [],
+      "exports": [
+        "extract_ecg_features"
+      ],
+      "totalLines": 6,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/feature_extract/extract_eeg_features.py": {
+      "filePath": "neuromm26_baseline/feature_extract/extract_eeg_features.py",
+      "contentHash": "6578f84570517f54e07561d970f875794c4c2c8bce793811d9b446ba10b1c9a1",
+      "functions": [
+        {
+          "name": "extract_eeg_features",
+          "params": [
+            "input_path",
+            "output_path"
+          ],
+          "returnType": "None",
+          "exported": true,
+          "lineCount": 2
+        }
+      ],
+      "classes": [],
+      "imports": [],
+      "exports": [
+        "extract_eeg_features"
+      ],
+      "totalLines": 6,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/feature_extract/extract_emg_features.py": {
+      "filePath": "neuromm26_baseline/feature_extract/extract_emg_features.py",
+      "contentHash": "de6612e86fba90d8efb2160c7423eae77035d2ddc1845321fd736280618c4cf7",
+      "functions": [
+        {
+          "name": "extract_emg_features",
+          "params": [
+            "input_path",
+            "output_path"
+          ],
+          "returnType": "None",
+          "exported": true,
+          "lineCount": 2
+        }
+      ],
+      "classes": [],
+      "imports": [],
+      "exports": [
+        "extract_emg_features"
+      ],
+      "totalLines": 6,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/feature_extract/extract_face_features.py": {
+      "filePath": "neuromm26_baseline/feature_extract/extract_face_features.py",
+      "contentHash": "4005c2ecc2ff53da5b8d809d6b06ccde064bf773b1ae405ed624b2d3d9dc1149",
+      "functions": [
+        {
+          "name": "find_binary",
+          "params": [
+            "explicit"
+          ],
+          "returnType": "str",
+          "exported": true,
+          "lineCount": 10
+        },
+        {
+          "name": "run_openface",
+          "params": [
+            "binary",
+            "video_path",
+            "out_dir"
+          ],
+          "returnType": "Path",
+          "exported": true,
+          "lineCount": 15
+        },
+        {
+          "name": "parse_features",
+          "params": [
+            "csv_path"
+          ],
+          "returnType": "np.ndarray",
+          "exported": true,
+          "lineCount": 6
+        },
+        {
+          "name": "main",
+          "params": [],
+          "returnType": "int",
+          "exported": true,
+          "lineCount": 59
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "argparse",
+          "specifiers": [
+            "argparse"
+          ]
+        },
+        {
+          "source": "os",
+          "specifiers": [
+            "os"
+          ]
+        },
+        {
+          "source": "shutil",
+          "specifiers": [
+            "shutil"
+          ]
+        },
+        {
+          "source": "subprocess",
+          "specifiers": [
+            "subprocess"
+          ]
+        },
+        {
+          "source": "tempfile",
+          "specifiers": [
+            "tempfile"
+          ]
+        },
+        {
+          "source": "warnings",
+          "specifiers": [
+            "warnings"
+          ]
+        },
+        {
+          "source": "pathlib",
+          "specifiers": [
+            "Path"
+          ]
+        },
+        {
+          "source": "numpy",
+          "specifiers": [
+            "np"
+          ]
+        },
+        {
+          "source": "pandas",
+          "specifiers": [
+            "pd"
+          ]
+        },
+        {
+          "source": "tqdm",
+          "specifiers": [
+            "tqdm"
+          ]
+        }
+      ],
+      "exports": [
+        "find_binary",
+        "run_openface",
+        "parse_features",
+        "main"
+      ],
+      "totalLines": 174,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/feature_extract/extract_video_features.py": {
+      "filePath": "neuromm26_baseline/feature_extract/extract_video_features.py",
+      "contentHash": "d94395f2499595e5656ef6d8bea4bc064bb8c71b0094165ee2c976fa14bc8494",
+      "functions": [
+        {
+          "name": "get_extractor",
+          "params": [
+            "feature_name",
+            "model_path",
+            "device"
+          ],
+          "returnType": "BaseVideoExtractor",
+          "exported": true,
+          "lineCount": 4
+        },
+        {
+          "name": "extract_frames_uniformly",
+          "params": [
+            "video_path",
+            "num_frames"
+          ],
+          "returnType": "list",
+          "exported": true,
+          "lineCount": 31
+        },
+        {
+          "name": "main",
+          "params": [],
+          "exported": true,
+          "lineCount": 71
+        }
+      ],
+      "classes": [
+        {
+          "name": "BaseVideoExtractor",
+          "methods": [
+            "__init__",
+            "setup_model",
+            "extract_features"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 14
+        },
+        {
+          "name": "CLIPExtractor",
+          "methods": [
+            "setup_model",
+            "extract_features"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 19
+        },
+        {
+          "name": "VideoMAEExtractor",
+          "methods": [
+            "setup_model",
+            "extract_features"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 32
+        },
+        {
+          "name": "DinoV2Extractor",
+          "methods": [
+            "setup_model",
+            "extract_features"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 18
+        },
+        {
+          "name": "SigLIPExtractor",
+          "methods": [
+            "setup_model",
+            "extract_features"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 17
+        },
+        {
+          "name": "TimeSformerExtractor",
+          "methods": [
+            "setup_model",
+            "extract_features"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 25
+        }
+      ],
+      "imports": [
+        {
+          "source": "os",
+          "specifiers": [
+            "os"
+          ]
+        },
+        {
+          "source": "argparse",
+          "specifiers": [
+            "argparse"
+          ]
+        },
+        {
+          "source": "pandas",
+          "specifiers": [
+            "pd"
+          ]
+        },
+        {
+          "source": "numpy",
+          "specifiers": [
+            "np"
+          ]
+        },
+        {
+          "source": "torch",
+          "specifiers": [
+            "torch"
+          ]
+        },
+        {
+          "source": "cv2",
+          "specifiers": [
+            "cv2"
+          ]
+        },
+        {
+          "source": "tqdm",
+          "specifiers": [
+            "tqdm"
+          ]
+        },
+        {
+          "source": "PIL",
+          "specifiers": [
+            "Image"
+          ]
+        },
+        {
+          "source": "transformers",
+          "specifiers": [
+            "CLIPProcessor",
+            "CLIPModel"
+          ]
+        },
+        {
+          "source": "warnings",
+          "specifiers": [
+            "warnings"
+          ]
+        }
+      ],
+      "exports": [
+        "BaseVideoExtractor",
+        "CLIPExtractor",
+        "VideoMAEExtractor",
+        "DinoV2Extractor",
+        "SigLIPExtractor",
+        "TimeSformerExtractor",
+        "get_extractor",
+        "extract_frames_uniformly",
+        "main"
+      ],
+      "totalLines": 278,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/feature_extract/inspect_npy.py": {
+      "filePath": "neuromm26_baseline/feature_extract/inspect_npy.py",
+      "contentHash": "80d585b5be8b24a9095000822a8f2f4dd84ddee920e7e4fa9bc4f3155e0d5d54",
+      "functions": [
+        {
+          "name": "main",
+          "params": [],
+          "exported": true,
+          "lineCount": 36
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "argparse",
+          "specifiers": [
+            "argparse"
+          ]
+        },
+        {
+          "source": "numpy",
+          "specifiers": [
+            "np"
+          ]
+        },
+        {
+          "source": "os",
+          "specifiers": [
+            "os"
+          ]
+        }
+      ],
+      "exports": [
+        "main"
+      ],
+      "totalLines": 43,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/losses/__init__.py": {
+      "filePath": "neuromm26_baseline/losses/__init__.py",
+      "contentHash": "268176e2ce2340ab467b0d40c3abb09240392e5f64ad1a48e17bf40e7e4f3d33",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 2,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/losses/classification_loss.py": {
+      "filePath": "neuromm26_baseline/losses/classification_loss.py",
+      "contentHash": "e4b1fe5701f89ca375f74bb88c55c171fbef6ce5504f91eed69cfb0fff3f36a5",
+      "functions": [
+        {
+          "name": "classification_loss",
+          "params": [
+            "predictions",
+            "targets"
+          ],
+          "exported": true,
+          "lineCount": 2
+        }
+      ],
+      "classes": [],
+      "imports": [],
+      "exports": [
+        "classification_loss"
+      ],
+      "totalLines": 6,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/losses/focal_loss.py": {
+      "filePath": "neuromm26_baseline/losses/focal_loss.py",
+      "contentHash": "1e2214f1f88236dbd55f2aed93d3919c9b17d5677d36dedd1325dba5376c1ed3",
+      "functions": [
+        {
+          "name": "focal_loss",
+          "params": [
+            "predictions",
+            "targets"
+          ],
+          "exported": true,
+          "lineCount": 2
+        }
+      ],
+      "classes": [],
+      "imports": [],
+      "exports": [
+        "focal_loss"
+      ],
+      "totalLines": 6,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/losses/localization_loss.py": {
+      "filePath": "neuromm26_baseline/losses/localization_loss.py",
+      "contentHash": "c55d89087c5d19ba808b2c890d640668b19541da09eaa3eb01317550a5610d67",
+      "functions": [
+        {
+          "name": "localization_loss",
+          "params": [
+            "predictions",
+            "targets"
+          ],
+          "exported": true,
+          "lineCount": 2
+        }
+      ],
+      "classes": [],
+      "imports": [],
+      "exports": [
+        "localization_loss"
+      ],
+      "totalLines": 6,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/losses/loss_builder.py": {
+      "filePath": "neuromm26_baseline/losses/loss_builder.py",
+      "contentHash": "1e3630390ed3e39caed55835d63c0bb54ab45326d1be69af7e23eebaf2d78db2",
+      "functions": [
+        {
+          "name": "build_loss",
+          "params": [
+            "name"
+          ],
+          "exported": true,
+          "lineCount": 2
+        }
+      ],
+      "classes": [],
+      "imports": [],
+      "exports": [
+        "build_loss"
+      ],
+      "totalLines": 6,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/models/__init__.py": {
+      "filePath": "neuromm26_baseline/models/__init__.py",
+      "contentHash": "e4f97894ce2624bc3d86824a03e4dc48f5df1ba73a87d401bd9e034578a6b8aa",
+      "functions": [
+        {
+          "name": "normalize_model_name",
+          "params": [
+            "model_name"
+          ],
+          "returnType": "str | None",
+          "exported": true,
+          "lineCount": 4
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": ".eeg_baseline",
+          "specifiers": [
+            "EEGBaselineModel"
+          ]
+        },
+        {
+          "source": ".legacy",
+          "specifiers": [
+            "LEGACY_EEG_MODEL_NAMES",
+            "build_legacy_eeg_model",
+            "is_legacy_eeg_model_name"
+          ]
+        },
+        {
+          "source": ".multimodal_baseline",
+          "specifiers": [
+            "EEGVideoFusionModel"
+          ]
+        }
+      ],
+      "exports": [
+        "normalize_model_name"
+      ],
+      "totalLines": 42,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/models/backbone/__init__.py": {
+      "filePath": "neuromm26_baseline/models/backbone/__init__.py",
+      "contentHash": "fb4b3aacbe7bdb760e18b0a0db2ea5edc246f0ad375fd16e5b12b7a396cc2310",
+      "functions": [],
+      "classes": [],
+      "imports": [
+        {
+          "source": ".eeg_resnet",
+          "specifiers": [
+            "EEGResNetEncoder"
+          ]
+        },
+        {
+          "source": ".video_projector",
+          "specifiers": [
+            "VideoFeatureProjector"
+          ]
+        }
+      ],
+      "exports": [],
+      "totalLines": 7,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/models/backbone/ecg_encoder.py": {
+      "filePath": "neuromm26_baseline/models/backbone/ecg_encoder.py",
+      "contentHash": "465eb80f4920d74f372f654a66b70684356ac7dc187eb297b72e6f8f073ebe5d",
+      "functions": [],
+      "classes": [
+        {
+          "name": "ECGEncoder",
+          "methods": [
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 3
+        }
+      ],
+      "imports": [],
+      "exports": [
+        "ECGEncoder"
+      ],
+      "totalLines": 7,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/models/backbone/eeg_encoder.py": {
+      "filePath": "neuromm26_baseline/models/backbone/eeg_encoder.py",
+      "contentHash": "7982b9426c6feaa17533dccdba50c2008bb61e749a6bff60c96951124b1a6e9d",
+      "functions": [],
+      "classes": [
+        {
+          "name": "EEGEncoder",
+          "methods": [
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 3
+        }
+      ],
+      "imports": [],
+      "exports": [
+        "EEGEncoder"
+      ],
+      "totalLines": 7,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/models/backbone/eeg_resnet.py": {
+      "filePath": "neuromm26_baseline/models/backbone/eeg_resnet.py",
+      "contentHash": "0ded64d7dd537ccd4f90b7028f500fee812f83cd995eeab87cf863e468009459",
+      "functions": [],
+      "classes": [
+        {
+          "name": "EEGResNetEncoder",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 55
+        }
+      ],
+      "imports": [
+        {
+          "source": "torch",
+          "specifiers": [
+            "torch"
+          ]
+        },
+        {
+          "source": "torch.nn",
+          "specifiers": [
+            "nn"
+          ]
+        },
+        {
+          "source": "torchvision.models",
+          "specifiers": [
+            "ResNet18_Weights",
+            "ResNet50_Weights",
+            "resnet18",
+            "resnet50"
+          ]
+        }
+      ],
+      "exports": [
+        "EEGResNetEncoder"
+      ],
+      "totalLines": 65,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/models/backbone/emg_encoder.py": {
+      "filePath": "neuromm26_baseline/models/backbone/emg_encoder.py",
+      "contentHash": "fa10de31bf0a340b97f86b06f6ea29e33998f79c5b1bffc489c3385f65207b98",
+      "functions": [],
+      "classes": [
+        {
+          "name": "EMGEncoder",
+          "methods": [
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 3
+        }
+      ],
+      "imports": [],
+      "exports": [
+        "EMGEncoder"
+      ],
+      "totalLines": 7,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/models/backbone/video_encoder.py": {
+      "filePath": "neuromm26_baseline/models/backbone/video_encoder.py",
+      "contentHash": "3fe57b292cd697a8cfe6bd7cf72f6de06cdf1eebd37e8b3c4beb0aed5d1f362d",
+      "functions": [],
+      "classes": [
+        {
+          "name": "VideoEncoder",
+          "methods": [
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 3
+        }
+      ],
+      "imports": [],
+      "exports": [
+        "VideoEncoder"
+      ],
+      "totalLines": 7,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/models/backbone/video_projector.py": {
+      "filePath": "neuromm26_baseline/models/backbone/video_projector.py",
+      "contentHash": "f4d8e2db4eeb51090f1be4a2ac63e58f177892c87dcfd51f63909e910b005caf",
+      "functions": [],
+      "classes": [
+        {
+          "name": "VideoFeatureProjector",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 12
+        }
+      ],
+      "imports": [
+        {
+          "source": "torch",
+          "specifiers": [
+            "torch"
+          ]
+        },
+        {
+          "source": "torch.nn",
+          "specifiers": [
+            "nn"
+          ]
+        }
+      ],
+      "exports": [
+        "VideoFeatureProjector"
+      ],
+      "totalLines": 21,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/models/baseline_model.py": {
+      "filePath": "neuromm26_baseline/models/baseline_model.py",
+      "contentHash": "2b4f4345e0807ba6032edf8a0a9d651a668db4508ed6360b7913702406a3f680",
+      "functions": [],
+      "classes": [
+        {
+          "name": "BaselineModel",
+          "methods": [
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 3
+        }
+      ],
+      "imports": [],
+      "exports": [
+        "BaselineModel"
+      ],
+      "totalLines": 7,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/models/eeg_baseline.py": {
+      "filePath": "neuromm26_baseline/models/eeg_baseline.py",
+      "contentHash": "09626f28038219b415f65d5ca6f2a2003ba944552a6b652554f173c8fe0df1c3",
+      "functions": [],
+      "classes": [
+        {
+          "name": "EEGBaselineModel",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 14
+        }
+      ],
+      "imports": [
+        {
+          "source": "torch.nn",
+          "specifiers": [
+            "nn"
+          ]
+        },
+        {
+          "source": ".backbone",
+          "specifiers": [
+            "EEGResNetEncoder"
+          ]
+        },
+        {
+          "source": ".heads.classification_head",
+          "specifiers": [
+            "BinaryClassificationHead"
+          ]
+        }
+      ],
+      "exports": [
+        "EEGBaselineModel"
+      ],
+      "totalLines": 25,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/models/fusion/__init__.py": {
+      "filePath": "neuromm26_baseline/models/fusion/__init__.py",
+      "contentHash": "9cd826e36aa2278c57db980df8ad39066fad4626947d5e9986880cfc289ce0f5",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 2,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/models/fusion/concat_fusion.py": {
+      "filePath": "neuromm26_baseline/models/fusion/concat_fusion.py",
+      "contentHash": "56f4cb2d392ec123d590327be1026d4e1c24b5aa66530511816c3426d8618180",
+      "functions": [],
+      "classes": [
+        {
+          "name": "ConcatFusion",
+          "methods": [
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 3
+        }
+      ],
+      "imports": [
+        {
+          "source": "torch",
+          "specifiers": [
+            "torch"
+          ]
+        },
+        {
+          "source": "torch.nn",
+          "specifiers": [
+            "nn"
+          ]
+        }
+      ],
+      "exports": [
+        "ConcatFusion"
+      ],
+      "totalLines": 12,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/models/fusion/cross_attention_fusion.py": {
+      "filePath": "neuromm26_baseline/models/fusion/cross_attention_fusion.py",
+      "contentHash": "57d8922845bea420ac3fd0a2b73149683cfdb6df3acd6f6cbd8246f239303253",
+      "functions": [
+        {
+          "name": "cross_attention_fusion",
+          "params": [
+            "features"
+          ],
+          "exported": true,
+          "lineCount": 2
+        }
+      ],
+      "classes": [],
+      "imports": [],
+      "exports": [
+        "cross_attention_fusion"
+      ],
+      "totalLines": 6,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/models/fusion/temporal_fusion.py": {
+      "filePath": "neuromm26_baseline/models/fusion/temporal_fusion.py",
+      "contentHash": "46c2a4aa3cb390ac64b5f0674145b66d54c36247de34f0ab66ffd6aabbc97cf3",
+      "functions": [
+        {
+          "name": "temporal_fusion",
+          "params": [
+            "features"
+          ],
+          "exported": true,
+          "lineCount": 2
+        }
+      ],
+      "classes": [],
+      "imports": [],
+      "exports": [
+        "temporal_fusion"
+      ],
+      "totalLines": 6,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/models/heads/__init__.py": {
+      "filePath": "neuromm26_baseline/models/heads/__init__.py",
+      "contentHash": "6d4c75ea2c0ba21fce2b4dbd5531e446a75ec659a14829d6061de9579cc90a2e",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 2,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/models/heads/classification_head.py": {
+      "filePath": "neuromm26_baseline/models/heads/classification_head.py",
+      "contentHash": "9cace3fa50206cc4acc8c3e859282ce4e596b71d89ab2defcccfc76c2d546a90",
+      "functions": [],
+      "classes": [
+        {
+          "name": "BinaryClassificationHead",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 18
+        }
+      ],
+      "imports": [
+        {
+          "source": "torch.nn",
+          "specifiers": [
+            "nn"
+          ]
+        }
+      ],
+      "exports": [
+        "BinaryClassificationHead"
+      ],
+      "totalLines": 26,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/models/heads/localization_head.py": {
+      "filePath": "neuromm26_baseline/models/heads/localization_head.py",
+      "contentHash": "a1a71ae4f22ef30191fb3a6f4696c05ca2450b8dcc673d6632e642d901b61e82",
+      "functions": [],
+      "classes": [
+        {
+          "name": "LocalizationHead",
+          "methods": [
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 3
+        }
+      ],
+      "imports": [],
+      "exports": [
+        "LocalizationHead"
+      ],
+      "totalLines": 7,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/models/legacy/__init__.py": {
+      "filePath": "neuromm26_baseline/models/legacy/__init__.py",
+      "contentHash": "bc8484784351cd1a6468ba2c7c7514bbd2838f7c1e94c2a1b4673ba6e37a45dc",
+      "functions": [],
+      "classes": [],
+      "imports": [
+        {
+          "source": ".registry",
+          "specifiers": [
+            "LEGACY_EEG_MODEL_NAMES",
+            "LegacyEEGModelAdapter",
+            "build_legacy_eeg_model",
+            "is_legacy_eeg_model_name"
+          ]
+        }
+      ],
+      "exports": [],
+      "totalLines": 17,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/models/legacy/actnet.py": {
+      "filePath": "neuromm26_baseline/models/legacy/actnet.py",
+      "contentHash": "20c956c8171849cecc8cad0c183115899cc9d7ef0e45405fbb2bed637f95491e",
+      "functions": [
+        {
+          "name": "_same_pad_1d",
+          "params": [
+            "k",
+            "d"
+          ],
+          "returnType": "int",
+          "exported": true,
+          "lineCount": 2
+        }
+      ],
+      "classes": [
+        {
+          "name": "SE2d",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 16
+        },
+        {
+          "name": "SE1d",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 16
+        },
+        {
+          "name": "SepTemporalResBlock2d",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 26
+        },
+        {
+          "name": "EEGFront",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 72
+        },
+        {
+          "name": "PreNorm",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 8
+        },
+        {
+          "name": "ConvModule1d",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 27
+        },
+        {
+          "name": "PerWindowConformer",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 41
+        },
+        {
+          "name": "WindowFusion",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 24
+        },
+        {
+          "name": "Net",
+          "methods": [
+            "__init__",
+            "_segment_windows",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 105
+        }
+      ],
+      "imports": [
+        {
+          "source": "math",
+          "specifiers": [
+            "math"
+          ]
+        },
+        {
+          "source": "typing",
+          "specifiers": [
+            "Optional",
+            "Tuple",
+            "List"
+          ]
+        },
+        {
+          "source": "torch",
+          "specifiers": [
+            "torch"
+          ]
+        },
+        {
+          "source": "torch.nn",
+          "specifiers": [
+            "nn"
+          ]
+        },
+        {
+          "source": "torch.nn.functional",
+          "specifiers": [
+            "F"
+          ]
+        }
+      ],
+      "exports": [
+        "_same_pad_1d",
+        "SE2d",
+        "SE1d",
+        "SepTemporalResBlock2d",
+        "EEGFront",
+        "PreNorm",
+        "ConvModule1d",
+        "PerWindowConformer",
+        "WindowFusion",
+        "Net"
+      ],
+      "totalLines": 386,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/models/legacy/cbramod.py": {
+      "filePath": "neuromm26_baseline/models/legacy/cbramod.py",
+      "contentHash": "48971cc9762757bdd5051289d7e95b95878b38a671d1b92913835baeaa11ef7f",
+      "functions": [],
+      "classes": [
+        {
+          "name": "Net",
+          "methods": [
+            "__init__",
+            "_load_pretrained_weights",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 66
+        }
+      ],
+      "imports": [
+        {
+          "source": "logging",
+          "specifiers": [
+            "logging"
+          ]
+        },
+        {
+          "source": "os",
+          "specifiers": [
+            "os"
+          ]
+        },
+        {
+          "source": "collections",
+          "specifiers": [
+            "OrderedDict"
+          ]
+        },
+        {
+          "source": "torch",
+          "specifiers": [
+            "torch"
+          ]
+        },
+        {
+          "source": "torch.nn",
+          "specifiers": [
+            "nn"
+          ]
+        },
+        {
+          "source": "einops.layers.torch",
+          "specifiers": [
+            "Rearrange"
+          ]
+        },
+        {
+          "source": ".cbramod_src.cbramod",
+          "specifiers": [
+            "CBraMod"
+          ]
+        }
+      ],
+      "exports": [
+        "Net"
+      ],
+      "totalLines": 91,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/models/legacy/cbramod_src/__init__.py": {
+      "filePath": "neuromm26_baseline/models/legacy/cbramod_src/__init__.py",
+      "contentHash": "7812bc2e403703096bd0f386d495c6c19669b97bb73aab2eb2dc67e6f6c06344",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 2,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/models/legacy/cbramod_src/cbramod.py": {
+      "filePath": "neuromm26_baseline/models/legacy/cbramod_src/cbramod.py",
+      "contentHash": "757fa2190ec2ca3d0371fa9493786d172896e59a5d3d70f771774992a9080f2d",
+      "functions": [
+        {
+          "name": "_weights_init",
+          "params": [
+            "m"
+          ],
+          "exported": true,
+          "lineCount": 8
+        }
+      ],
+      "classes": [
+        {
+          "name": "PatchEmbedding",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 47
+        },
+        {
+          "name": "CBraMod",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 19
+        }
+      ],
+      "imports": [
+        {
+          "source": "torch",
+          "specifiers": [
+            "torch"
+          ]
+        },
+        {
+          "source": "torch.nn",
+          "specifiers": [
+            "nn"
+          ]
+        },
+        {
+          "source": "torch.nn.functional",
+          "specifiers": [
+            "F"
+          ]
+        },
+        {
+          "source": ".criss_cross_transformer",
+          "specifiers": [
+            "TransformerEncoderLayer",
+            "TransformerEncoder"
+          ]
+        }
+      ],
+      "exports": [
+        "PatchEmbedding",
+        "_weights_init",
+        "CBraMod"
+      ],
+      "totalLines": 93,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/models/legacy/cbramod_src/criss_cross_transformer.py": {
+      "filePath": "neuromm26_baseline/models/legacy/cbramod_src/criss_cross_transformer.py",
+      "contentHash": "385070fb282c6c431ebfda6054b54a28535e8f5a1956f3f8008fc1e302e63b0a",
+      "functions": [],
+      "classes": [
+        {
+          "name": "TransformerEncoder",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 16
+        },
+        {
+          "name": "TransformerEncoderLayer",
+          "methods": [
+            "__init__",
+            "forward",
+            "_sa_block",
+            "_ff_block"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 52
+        }
+      ],
+      "imports": [
+        {
+          "source": "copy",
+          "specifiers": [
+            "copy"
+          ]
+        },
+        {
+          "source": "typing",
+          "specifiers": [
+            "Optional",
+            "Union",
+            "Callable"
+          ]
+        },
+        {
+          "source": "torch",
+          "specifiers": [
+            "torch"
+          ]
+        },
+        {
+          "source": "torch.nn",
+          "specifiers": [
+            "nn"
+          ]
+        },
+        {
+          "source": "torch.nn.functional",
+          "specifiers": [
+            "F"
+          ]
+        },
+        {
+          "source": "torch",
+          "specifiers": [
+            "Tensor"
+          ]
+        }
+      ],
+      "exports": [
+        "TransformerEncoder",
+        "TransformerEncoderLayer"
+      ],
+      "totalLines": 89,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/models/legacy/cnn_eeg.py": {
+      "filePath": "neuromm26_baseline/models/legacy/cnn_eeg.py",
+      "contentHash": "659acf8a1a7fabeaf1aa7dd546225bfe2199cffac59feda83192e0a683ff09b8",
+      "functions": [
+        {
+          "name": "_adapt_densenet_stem_for_small_input",
+          "params": [
+            "model"
+          ],
+          "exported": true,
+          "lineCount": 13
+        },
+        {
+          "name": "_load_backbone",
+          "params": [
+            "base",
+            "pretrained"
+          ],
+          "exported": true,
+          "lineCount": 91
+        },
+        {
+          "name": "_replace_first_conv_to_1ch",
+          "params": [
+            "model"
+          ],
+          "exported": true,
+          "lineCount": 37
+        }
+      ],
+      "classes": [
+        {
+          "name": "Net",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 102
+        }
+      ],
+      "imports": [
+        {
+          "source": "torch",
+          "specifiers": [
+            "torch"
+          ]
+        },
+        {
+          "source": "torch.nn",
+          "specifiers": [
+            "nn"
+          ]
+        },
+        {
+          "source": "typing",
+          "specifiers": [
+            "Optional"
+          ]
+        },
+        {
+          "source": "torchvision",
+          "specifiers": [
+            "torchvision"
+          ]
+        },
+        {
+          "source": "torchvision.models",
+          "specifiers": [
+            "convnext_tiny",
+            "convnext_base",
+            "convnext_large",
+            "efficientnet_v2_s",
+            "mobilenet_v3_large",
+            "densenet121"
+          ]
+        },
+        {
+          "source": "torch.nn.functional",
+          "specifiers": [
+            "F"
+          ]
+        }
+      ],
+      "exports": [
+        "_adapt_densenet_stem_for_small_input",
+        "_load_backbone",
+        "_replace_first_conv_to_1ch",
+        "Net"
+      ],
+      "totalLines": 277,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/models/legacy/densenet_vit_eeg.py": {
+      "filePath": "neuromm26_baseline/models/legacy/densenet_vit_eeg.py",
+      "contentHash": "410a6e533570eec470ebf9211a97d773993cebb1f1197ee62c5de2cf881e175b",
+      "functions": [
+        {
+          "name": "_build_vit_backbone",
+          "params": [
+            "name",
+            "pretrained"
+          ],
+          "exported": true,
+          "lineCount": 17
+        }
+      ],
+      "classes": [
+        {
+          "name": "DenseNetFrontend",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 46
+        },
+        {
+          "name": "Net",
+          "methods": [
+            "__init__",
+            "_to_eeg_image",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 150
+        }
+      ],
+      "imports": [
+        {
+          "source": "math",
+          "specifiers": [
+            "math"
+          ]
+        },
+        {
+          "source": "typing",
+          "specifiers": [
+            "Optional"
+          ]
+        },
+        {
+          "source": "torch",
+          "specifiers": [
+            "torch"
+          ]
+        },
+        {
+          "source": "torch.nn",
+          "specifiers": [
+            "nn"
+          ]
+        },
+        {
+          "source": "torch.nn.functional",
+          "specifiers": [
+            "F"
+          ]
+        },
+        {
+          "source": "torchvision",
+          "specifiers": [
+            "torchvision"
+          ]
+        },
+        {
+          "source": "torchvision.models",
+          "specifiers": [
+            "densenet121"
+          ]
+        },
+        {
+          "source": "timm",
+          "specifiers": [
+            "timm"
+          ]
+        }
+      ],
+      "exports": [
+        "DenseNetFrontend",
+        "_build_vit_backbone",
+        "Net"
+      ],
+      "totalLines": 247,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/models/legacy/eeg_dino.py": {
+      "filePath": "neuromm26_baseline/models/legacy/eeg_dino.py",
+      "contentHash": "532bab9cf4fc612ae9ddcdbeec8b0b24356b193becbbf412d5460f3163d31680",
+      "functions": [],
+      "classes": [
+        {
+          "name": "PatchEmbedding",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 67
+        },
+        {
+          "name": "_Mlp",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 10
+        },
+        {
+          "name": "_Attention",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 23
+        },
+        {
+          "name": "_Block",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 14
+        },
+        {
+          "name": "EEGEncoder",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 21
+        },
+        {
+          "name": "Net",
+          "methods": [
+            "__init__",
+            "_load_pretrained_weights",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 87
+        }
+      ],
+      "imports": [
+        {
+          "source": "logging",
+          "specifiers": [
+            "logging"
+          ]
+        },
+        {
+          "source": "os",
+          "specifiers": [
+            "os"
+          ]
+        },
+        {
+          "source": "collections",
+          "specifiers": [
+            "OrderedDict"
+          ]
+        },
+        {
+          "source": "functools",
+          "specifiers": [
+            "partial"
+          ]
+        },
+        {
+          "source": "typing",
+          "specifiers": [
+            "Dict"
+          ]
+        },
+        {
+          "source": "torch",
+          "specifiers": [
+            "torch"
+          ]
+        },
+        {
+          "source": "torch.nn",
+          "specifiers": [
+            "nn"
+          ]
+        },
+        {
+          "source": "torch.nn.functional",
+          "specifiers": [
+            "F"
+          ]
+        }
+      ],
+      "exports": [
+        "PatchEmbedding",
+        "_Mlp",
+        "_Attention",
+        "_Block",
+        "EEGEncoder",
+        "Net"
+      ],
+      "totalLines": 286,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/models/legacy/eegnet.py": {
+      "filePath": "neuromm26_baseline/models/legacy/eegnet.py",
+      "contentHash": "02b471f88f76d3ea322aee11f875ee8298bffc88fa4b12e02a0e072474ecb8c8",
+      "functions": [],
+      "classes": [
+        {
+          "name": "SEBlock",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 17
+        },
+        {
+          "name": "SeparableTemporalBlock",
+          "methods": [
+            "__init__",
+            "_init_weights",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 46
+        },
+        {
+          "name": "_EEGNetCore",
+          "methods": [
+            "__init__",
+            "_init_weights",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 163
+        },
+        {
+          "name": "Net",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 75
+        }
+      ],
+      "imports": [
+        {
+          "source": "math",
+          "specifiers": [
+            "math"
+          ]
+        },
+        {
+          "source": "typing",
+          "specifiers": [
+            "Optional",
+            "List"
+          ]
+        },
+        {
+          "source": "torch",
+          "specifiers": [
+            "torch"
+          ]
+        },
+        {
+          "source": "torch.nn",
+          "specifiers": [
+            "nn"
+          ]
+        },
+        {
+          "source": "torch.nn.functional",
+          "specifiers": [
+            "F"
+          ]
+        }
+      ],
+      "exports": [
+        "SEBlock",
+        "SeparableTemporalBlock",
+        "_EEGNetCore",
+        "Net"
+      ],
+      "totalLines": 326,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/models/legacy/labram.py": {
+      "filePath": "neuromm26_baseline/models/legacy/labram.py",
+      "contentHash": "cfa8920632448eae816418ced18de442cde93924b73d2fcc6f66686111042c23",
+      "functions": [],
+      "classes": [
+        {
+          "name": "DropPath",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 10
+        },
+        {
+          "name": "Mlp",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 17
+        },
+        {
+          "name": "Attention",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 36
+        },
+        {
+          "name": "Block",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 29
+        },
+        {
+          "name": "TemporalConv",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 23
+        },
+        {
+          "name": "NeuralTransformer",
+          "methods": [
+            "__init__",
+            "_fix_init_weight",
+            "_init_weights",
+            "forward_features",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 112
+        },
+        {
+          "name": "Net",
+          "methods": [
+            "__init__",
+            "_load_pretrained_weights",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 105
+        }
+      ],
+      "imports": [
+        {
+          "source": "logging",
+          "specifiers": [
+            "logging"
+          ]
+        },
+        {
+          "source": "math",
+          "specifiers": [
+            "math"
+          ]
+        },
+        {
+          "source": "os",
+          "specifiers": [
+            "os"
+          ]
+        },
+        {
+          "source": "collections",
+          "specifiers": [
+            "OrderedDict"
+          ]
+        },
+        {
+          "source": "functools",
+          "specifiers": [
+            "partial"
+          ]
+        },
+        {
+          "source": "typing",
+          "specifiers": [
+            "Optional"
+          ]
+        },
+        {
+          "source": "torch",
+          "specifiers": [
+            "torch"
+          ]
+        },
+        {
+          "source": "torch.nn",
+          "specifiers": [
+            "nn"
+          ]
+        },
+        {
+          "source": "torch.nn.functional",
+          "specifiers": [
+            "F"
+          ]
+        },
+        {
+          "source": "einops",
+          "specifiers": [
+            "rearrange"
+          ]
+        }
+      ],
+      "exports": [
+        "DropPath",
+        "Mlp",
+        "Attention",
+        "Block",
+        "TemporalConv",
+        "NeuralTransformer",
+        "Net"
+      ],
+      "totalLines": 384,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/models/legacy/lmda.py": {
+      "filePath": "neuromm26_baseline/models/legacy/lmda.py",
+      "contentHash": "b7a25e5cbc7536cf441fea176cef653c68032eb91d87d4cd4751b62497665ffb",
+      "functions": [],
+      "classes": [
+        {
+          "name": "EEGDepthAttention",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 20
+        },
+        {
+          "name": "Net",
+          "methods": [
+            "__init__",
+            "_infer_temporal_out_shape",
+            "_infer_flat_dim",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 170
+        }
+      ],
+      "imports": [
+        {
+          "source": "torch",
+          "specifiers": [
+            "torch"
+          ]
+        },
+        {
+          "source": "torch.nn",
+          "specifiers": [
+            "nn"
+          ]
+        },
+        {
+          "source": "torch.nn.functional",
+          "specifiers": [
+            "F"
+          ]
+        },
+        {
+          "source": "typing",
+          "specifiers": [
+            "Optional"
+          ]
+        }
+      ],
+      "exports": [
+        "EEGDepthAttention",
+        "Net"
+      ],
+      "totalLines": 206,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/models/legacy/registry.py": {
+      "filePath": "neuromm26_baseline/models/legacy/registry.py",
+      "contentHash": "53591e77327d2948c66227be622f471cd12d89b9dc1c06444422737d4992ef91",
+      "functions": [
+        {
+          "name": "_build_local_model",
+          "params": [
+            "module_name",
+            "kwargs"
+          ],
+          "returnType": "nn.Module",
+          "exported": true,
+          "lineCount": 4
+        },
+        {
+          "name": "is_legacy_eeg_model_name",
+          "params": [
+            "model_name"
+          ],
+          "returnType": "bool",
+          "exported": true,
+          "lineCount": 2
+        },
+        {
+          "name": "build_legacy_eeg_model",
+          "params": [
+            "model_name"
+          ],
+          "returnType": "nn.Module",
+          "exported": true,
+          "lineCount": 5
+        }
+      ],
+      "classes": [
+        {
+          "name": "LegacyEEGModelAdapter",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 9
+        }
+      ],
+      "imports": [
+        {
+          "source": "importlib",
+          "specifiers": [
+            "importlib"
+          ]
+        },
+        {
+          "source": "collections.abc",
+          "specifiers": [
+            "Mapping"
+          ]
+        },
+        {
+          "source": "torch.nn",
+          "specifiers": [
+            "nn"
+          ]
+        }
+      ],
+      "exports": [
+        "LegacyEEGModelAdapter",
+        "_build_local_model",
+        "is_legacy_eeg_model_name",
+        "build_legacy_eeg_model"
+      ],
+      "totalLines": 75,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/models/legacy/registry_task3.py": {
+      "filePath": "neuromm26_baseline/models/legacy/registry_task3.py",
+      "contentHash": "7b67b12024d5759238e03fe2d2ee514c734a3ce5a7344c22fddfa7b0ee3a278a",
+      "functions": [
+        {
+          "name": "build_legacy_eeg_model_with_num_classes",
+          "params": [
+            "model_name",
+            "num_classes"
+          ],
+          "returnType": "nn.Module",
+          "exported": true,
+          "lineCount": 7
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "collections.abc",
+          "specifiers": [
+            "Mapping"
+          ]
+        },
+        {
+          "source": "torch.nn",
+          "specifiers": [
+            "nn"
+          ]
+        },
+        {
+          "source": ".registry",
+          "specifiers": [
+            "MODEL_SPECS",
+            "_build_local_model",
+            "is_legacy_eeg_model_name"
+          ]
+        }
+      ],
+      "exports": [
+        "build_legacy_eeg_model_with_num_classes"
+      ],
+      "totalLines": 24,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/models/legacy/resnet_eeg.py": {
+      "filePath": "neuromm26_baseline/models/legacy/resnet_eeg.py",
+      "contentHash": "688d675aa525a866a535de37386aa76373dc11221f727be95a3f2c886f0a12af",
+      "functions": [
+        {
+          "name": "_load_resnet",
+          "params": [
+            "base",
+            "pretrained"
+          ],
+          "exported": true,
+          "lineCount": 29
+        },
+        {
+          "name": "_convert_first_conv_to_single_channel",
+          "params": [
+            "backbone"
+          ],
+          "exported": true,
+          "lineCount": 27
+        }
+      ],
+      "classes": [
+        {
+          "name": "Net",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 56
+        }
+      ],
+      "imports": [
+        {
+          "source": "torch",
+          "specifiers": [
+            "torch"
+          ]
+        },
+        {
+          "source": "torch.nn",
+          "specifiers": [
+            "nn"
+          ]
+        },
+        {
+          "source": "typing",
+          "specifiers": [
+            "Optional"
+          ]
+        }
+      ],
+      "exports": [
+        "_load_resnet",
+        "_convert_first_conv_to_single_channel",
+        "Net"
+      ],
+      "totalLines": 139,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/models/legacy/rnn_eeg_big.py": {
+      "filePath": "neuromm26_baseline/models/legacy/rnn_eeg_big.py",
+      "contentHash": "0d71f4982edeaa9ce190ad0465cde86e39576a8b05963adb3bc89ea47f158de4",
+      "functions": [],
+      "classes": [
+        {
+          "name": "TemporalConvFront",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 19
+        },
+        {
+          "name": "EEGSpatialFront",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 55
+        },
+        {
+          "name": "MultiHeadAttnPool",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 29
+        },
+        {
+          "name": "ResidualBiRNNBlock",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 39
+        },
+        {
+          "name": "Net",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [
+            "PRESETS"
+          ],
+          "exported": true,
+          "lineCount": 113
+        }
+      ],
+      "imports": [
+        {
+          "source": "math",
+          "specifiers": [
+            "math"
+          ]
+        },
+        {
+          "source": "typing",
+          "specifiers": [
+            "Optional",
+            "Dict"
+          ]
+        },
+        {
+          "source": "torch",
+          "specifiers": [
+            "torch"
+          ]
+        },
+        {
+          "source": "torch.nn",
+          "specifiers": [
+            "nn"
+          ]
+        },
+        {
+          "source": "torch.nn.functional",
+          "specifiers": [
+            "F"
+          ]
+        }
+      ],
+      "exports": [
+        "TemporalConvFront",
+        "EEGSpatialFront",
+        "MultiHeadAttnPool",
+        "ResidualBiRNNBlock",
+        "Net"
+      ],
+      "totalLines": 294,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/models/legacy/tcnet.py": {
+      "filePath": "neuromm26_baseline/models/legacy/tcnet.py",
+      "contentHash": "e53da8236886f1759d9c42e37475d529fe9b8a76c51813e3cac6cc8218a94c2d",
+      "functions": [],
+      "classes": [
+        {
+          "name": "_EEGFrontend",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 68
+        },
+        {
+          "name": "CausalConv1d",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 12
+        },
+        {
+          "name": "TemporalBlock",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 34
+        },
+        {
+          "name": "AttnPool1d",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 17
+        },
+        {
+          "name": "TCNet",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 115
+        },
+        {
+          "name": "Net",
+          "methods": [
+            "__init__"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 36
+        }
+      ],
+      "imports": [
+        {
+          "source": "math",
+          "specifiers": [
+            "math"
+          ]
+        },
+        {
+          "source": "typing",
+          "specifiers": [
+            "Optional",
+            "List"
+          ]
+        },
+        {
+          "source": "torch",
+          "specifiers": [
+            "torch"
+          ]
+        },
+        {
+          "source": "torch.nn",
+          "specifiers": [
+            "nn"
+          ]
+        },
+        {
+          "source": "torch.nn.functional",
+          "specifiers": [
+            "F"
+          ]
+        },
+        {
+          "source": "torch.nn.utils",
+          "specifiers": [
+            "weight_norm"
+          ]
+        }
+      ],
+      "exports": [
+        "_EEGFrontend",
+        "CausalConv1d",
+        "TemporalBlock",
+        "AttnPool1d",
+        "TCNet",
+        "Net"
+      ],
+      "totalLines": 326,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/models/legacy/vit_eeg.py": {
+      "filePath": "neuromm26_baseline/models/legacy/vit_eeg.py",
+      "contentHash": "3774e85e479ab7a0c372f0c7123a0a391ac53f205be4263d9ebc914337716a5c",
+      "functions": [
+        {
+          "name": "_avg_to_1ch_conv3",
+          "params": [
+            "w3"
+          ],
+          "exported": true,
+          "lineCount": 3
+        },
+        {
+          "name": "_build_vit_any",
+          "params": [
+            "base",
+            "pretrained",
+            "in_chans",
+            "img_size"
+          ],
+          "exported": true,
+          "lineCount": 82
+        }
+      ],
+      "classes": [
+        {
+          "name": "EEG2Image",
+          "methods": [
+            "__init__",
+            "_z_norm",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 62
+        },
+        {
+          "name": "Net",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 46
+        }
+      ],
+      "imports": [
+        {
+          "source": "torch",
+          "specifiers": [
+            "torch"
+          ]
+        },
+        {
+          "source": "torch.nn",
+          "specifiers": [
+            "nn"
+          ]
+        },
+        {
+          "source": "torch.nn.functional",
+          "specifiers": [
+            "F"
+          ]
+        }
+      ],
+      "exports": [
+        "_avg_to_1ch_conv3",
+        "_build_vit_any",
+        "EEG2Image",
+        "Net"
+      ],
+      "totalLines": 213,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/models/legacy/vit_hybrid_eeg.py": {
+      "filePath": "neuromm26_baseline/models/legacy/vit_hybrid_eeg.py",
+      "contentHash": "efa7d6b3e4bb8b8ba045e82b1529277fed55da20639b0ca2d8e2d1fe1aa4ffc1",
+      "functions": [
+        {
+          "name": "_build_vit_backbone",
+          "params": [
+            "name",
+            "pretrained"
+          ],
+          "exported": true,
+          "lineCount": 14
+        }
+      ],
+      "classes": [
+        {
+          "name": "ResNetFrontend",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 54
+        },
+        {
+          "name": "Net",
+          "methods": [
+            "__init__",
+            "_preprocess_to_rgb",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 132
+        }
+      ],
+      "imports": [
+        {
+          "source": "math",
+          "specifiers": [
+            "math"
+          ]
+        },
+        {
+          "source": "typing",
+          "specifiers": [
+            "Optional"
+          ]
+        },
+        {
+          "source": "torch",
+          "specifiers": [
+            "torch"
+          ]
+        },
+        {
+          "source": "torch.nn",
+          "specifiers": [
+            "nn"
+          ]
+        },
+        {
+          "source": "torch.nn.functional",
+          "specifiers": [
+            "F"
+          ]
+        },
+        {
+          "source": "timm",
+          "specifiers": [
+            "timm"
+          ]
+        },
+        {
+          "source": "torchvision",
+          "specifiers": [
+            "torchvision"
+          ]
+        },
+        {
+          "source": "torchvision.models",
+          "specifiers": [
+            "resnet18",
+            "resnet50"
+          ]
+        }
+      ],
+      "exports": [
+        "ResNetFrontend",
+        "_build_vit_backbone",
+        "Net"
+      ],
+      "totalLines": 233,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/models/multiclass_late_fusion.py": {
+      "filePath": "neuromm26_baseline/models/multiclass_late_fusion.py",
+      "contentHash": "518c9b9ca9ccf98238f2bd9ee7dd0f6b8f3684a32c8f78bfb710161398d4e9ad",
+      "functions": [],
+      "classes": [
+        {
+          "name": "EEGVideoLateFusion5Class",
+          "methods": [
+            "__init__",
+            "_pool_video",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 45
+        }
+      ],
+      "imports": [
+        {
+          "source": "torch",
+          "specifiers": [
+            "torch"
+          ]
+        },
+        {
+          "source": "torch.nn",
+          "specifiers": [
+            "nn"
+          ]
+        },
+        {
+          "source": ".legacy.registry_task3",
+          "specifiers": [
+            "build_legacy_eeg_model_with_num_classes"
+          ]
+        }
+      ],
+      "exports": [
+        "EEGVideoLateFusion5Class"
+      ],
+      "totalLines": 67,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/models/multimodal_baseline.py": {
+      "filePath": "neuromm26_baseline/models/multimodal_baseline.py",
+      "contentHash": "602b4f7c91e9ff0d869f14ad361d2cacca77c857eb48cb22017fb0b41143e445",
+      "functions": [],
+      "classes": [
+        {
+          "name": "EEGVideoFusionModel",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 31
+        }
+      ],
+      "imports": [
+        {
+          "source": "torch.nn",
+          "specifiers": [
+            "nn"
+          ]
+        },
+        {
+          "source": ".backbone",
+          "specifiers": [
+            "EEGResNetEncoder",
+            "VideoFeatureProjector"
+          ]
+        },
+        {
+          "source": ".fusion.concat_fusion",
+          "specifiers": [
+            "ConcatFusion"
+          ]
+        },
+        {
+          "source": ".heads.classification_head",
+          "specifiers": [
+            "BinaryClassificationHead"
+          ]
+        }
+      ],
+      "exports": [
+        "EEGVideoFusionModel"
+      ],
+      "totalLines": 43,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/models/multimodal_late_fusion.py": {
+      "filePath": "neuromm26_baseline/models/multimodal_late_fusion.py",
+      "contentHash": "7692b10f9569da80efee70c6cc264af58da62e71dbd1bb56eb0ea8a35e3d1693",
+      "functions": [],
+      "classes": [
+        {
+          "name": "EEGVideoLateFusion",
+          "methods": [
+            "__init__",
+            "_pool_video",
+            "forward",
+            "get_branch_logits"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 47
+        }
+      ],
+      "imports": [
+        {
+          "source": "torch",
+          "specifiers": [
+            "torch"
+          ]
+        },
+        {
+          "source": "torch.nn",
+          "specifiers": [
+            "nn"
+          ]
+        },
+        {
+          "source": ".legacy.registry",
+          "specifiers": [
+            "build_legacy_eeg_model"
+          ]
+        }
+      ],
+      "exports": [
+        "EEGVideoLateFusion"
+      ],
+      "totalLines": 74,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/tools/_task3_runtime.py": {
+      "filePath": "neuromm26_baseline/tools/_task3_runtime.py",
+      "contentHash": "900378d46cb4445fba9621581eea98ec629858b979985e047751c8e40b395009",
+      "functions": [
+        {
+          "name": "move_to",
+          "params": [
+            "batch",
+            "device"
+          ],
+          "returnType": "dict[str, Any]",
+          "exported": true,
+          "lineCount": 2
+        },
+        {
+          "name": "evaluate_multiclass",
+          "params": [
+            "model",
+            "loader",
+            "device",
+            "num_classes",
+            "criterion"
+          ],
+          "exported": true,
+          "lineCount": 42
+        },
+        {
+          "name": "save_predictions_csv",
+          "params": [
+            "path",
+            "sample_ids",
+            "probabilities",
+            "predictions",
+            "labels",
+            "num_classes"
+          ],
+          "returnType": "None",
+          "exported": true,
+          "lineCount": 18
+        },
+        {
+          "name": "save_json",
+          "params": [
+            "payload",
+            "path"
+          ],
+          "returnType": "None",
+          "exported": true,
+          "lineCount": 3
+        },
+        {
+          "name": "class_balanced_weights",
+          "params": [
+            "labels",
+            "num_classes",
+            "eps"
+          ],
+          "returnType": "torch.Tensor",
+          "exported": true,
+          "lineCount": 8
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "csv",
+          "specifiers": [
+            "csv"
+          ]
+        },
+        {
+          "source": "json",
+          "specifiers": [
+            "json"
+          ]
+        },
+        {
+          "source": "pathlib",
+          "specifiers": [
+            "Path"
+          ]
+        },
+        {
+          "source": "typing",
+          "specifiers": [
+            "Any"
+          ]
+        },
+        {
+          "source": "torch",
+          "specifiers": [
+            "torch"
+          ]
+        },
+        {
+          "source": "torch",
+          "specifiers": [
+            "nn"
+          ]
+        },
+        {
+          "source": "torch.utils.data",
+          "specifiers": [
+            "DataLoader"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.utils.multiclass_metrics",
+          "specifiers": [
+            "compute_multiclass_metrics",
+            "order_multiclass_metrics"
+          ]
+        }
+      ],
+      "exports": [
+        "move_to",
+        "evaluate_multiclass",
+        "save_predictions_csv",
+        "save_json",
+        "class_balanced_weights"
+      ],
+      "totalLines": 105,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/tools/eval.py": {
+      "filePath": "neuromm26_baseline/tools/eval.py",
+      "contentHash": "400b082a06ab9d5bebcce358fce0fbc68a0d70447153b3c483bd105a17bc95fd",
+      "functions": [
+        {
+          "name": "main",
+          "params": [],
+          "returnType": "int",
+          "exported": true,
+          "lineCount": 45
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "argparse",
+          "specifiers": [
+            "argparse"
+          ]
+        },
+        {
+          "source": "pathlib",
+          "specifiers": [
+            "Path"
+          ]
+        },
+        {
+          "source": "torch",
+          "specifiers": [
+            "torch"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.trainers.evaluator",
+          "specifiers": [
+            "Evaluator"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.utils.config",
+          "specifiers": [
+            "load_config"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.utils.logger",
+          "specifiers": [
+            "get_logger"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.utils.metrics",
+          "specifiers": [
+            "format_metric_summary",
+            "order_metric_dict"
+          ]
+        },
+        {
+          "source": ".runtime",
+          "specifiers": [
+            "build_criterion",
+            "build_dataloader",
+            "build_dataset",
+            "build_model",
+            "resolve_device",
+            "save_json",
+            "save_prediction_csv"
+          ]
+        }
+      ],
+      "exports": [
+        "main"
+      ],
+      "totalLines": 67,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/tools/extract_features.py": {
+      "filePath": "neuromm26_baseline/tools/extract_features.py",
+      "contentHash": "195f3ef9729dfb52bcf09a51b96ae9f03dd30c9d79f0cb9023ce5d4c0258b0f6",
+      "functions": [
+        {
+          "name": "main",
+          "params": [],
+          "returnType": "int",
+          "exported": true,
+          "lineCount": 7
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "argparse",
+          "specifiers": [
+            "argparse"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.utils.config",
+          "specifiers": [
+            "load_config"
+          ]
+        }
+      ],
+      "exports": [
+        "main"
+      ],
+      "totalLines": 19,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/tools/infer.py": {
+      "filePath": "neuromm26_baseline/tools/infer.py",
+      "contentHash": "7bf6c9ed02b53ec65656659878ee9756865b23383a4c981102e59ce54acdd54e",
+      "functions": [
+        {
+          "name": "main",
+          "params": [],
+          "returnType": "int",
+          "exported": true,
+          "lineCount": 27
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "argparse",
+          "specifiers": [
+            "argparse"
+          ]
+        },
+        {
+          "source": "pathlib",
+          "specifiers": [
+            "Path"
+          ]
+        },
+        {
+          "source": "torch",
+          "specifiers": [
+            "torch"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.trainers.inference",
+          "specifiers": [
+            "InferenceRunner"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.utils.config",
+          "specifiers": [
+            "load_config"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.utils.logger",
+          "specifiers": [
+            "get_logger"
+          ]
+        },
+        {
+          "source": ".runtime",
+          "specifiers": [
+            "build_dataloader",
+            "build_dataset",
+            "build_model",
+            "resolve_device"
+          ]
+        }
+      ],
+      "exports": [
+        "main"
+      ],
+      "totalLines": 48,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/tools/main.py": {
+      "filePath": "neuromm26_baseline/tools/main.py",
+      "contentHash": "6dab06454554c9a458a38eedf749735e7fc5c819367ffc24d6312498f6cce8b1",
+      "functions": [
+        {
+          "name": "main",
+          "params": [],
+          "returnType": "int",
+          "exported": true,
+          "lineCount": 11
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "argparse",
+          "specifiers": [
+            "argparse"
+          ]
+        },
+        {
+          "source": "sys",
+          "specifiers": [
+            "sys"
+          ]
+        },
+        {
+          "source": ".",
+          "specifiers": [
+            "eval_tool"
+          ]
+        },
+        {
+          "source": ".",
+          "specifiers": [
+            "infer_tool"
+          ]
+        },
+        {
+          "source": ".",
+          "specifiers": [
+            "train_tool"
+          ]
+        }
+      ],
+      "exports": [
+        "main"
+      ],
+      "totalLines": 28,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/tools/prepare_dataset.py": {
+      "filePath": "neuromm26_baseline/tools/prepare_dataset.py",
+      "contentHash": "402cb83069c8892529ebe5bb0fdcc7cd4c62f1f8f3b6af24c14f7ab436da2787",
+      "functions": [
+        {
+          "name": "normalize_raw_path",
+          "params": [
+            "raw_path"
+          ],
+          "returnType": "str",
+          "exported": true,
+          "lineCount": 6
+        },
+        {
+          "name": "infer_subject_id",
+          "params": [
+            "video_relpath"
+          ],
+          "returnType": "str",
+          "exported": true,
+          "lineCount": 3
+        },
+        {
+          "name": "load_records",
+          "params": [
+            "raw_csv"
+          ],
+          "returnType": "list[dict[str, str]]",
+          "exported": true,
+          "lineCount": 22
+        },
+        {
+          "name": "copy_public_eeg",
+          "params": [
+            "records",
+            "dataset_root"
+          ],
+          "returnType": "None",
+          "exported": true,
+          "lineCount": 8
+        },
+        {
+          "name": "write_csv",
+          "params": [
+            "path",
+            "fieldnames",
+            "rows"
+          ],
+          "returnType": "None",
+          "exported": true,
+          "lineCount": 6
+        },
+        {
+          "name": "collect_unmatched_videos",
+          "params": [
+            "dataset_root",
+            "records"
+          ],
+          "returnType": "list[dict[str, str]]",
+          "exported": true,
+          "lineCount": 13
+        },
+        {
+          "name": "write_summary",
+          "params": [
+            "dataset_root",
+            "records",
+            "unmatched_videos"
+          ],
+          "returnType": "None",
+          "exported": true,
+          "lineCount": 15
+        },
+        {
+          "name": "main",
+          "params": [],
+          "returnType": "int",
+          "exported": true,
+          "lineCount": 47
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "argparse",
+          "specifiers": [
+            "argparse"
+          ]
+        },
+        {
+          "source": "csv",
+          "specifiers": [
+            "csv"
+          ]
+        },
+        {
+          "source": "json",
+          "specifiers": [
+            "json"
+          ]
+        },
+        {
+          "source": "shutil",
+          "specifiers": [
+            "shutil"
+          ]
+        },
+        {
+          "source": "collections",
+          "specifiers": [
+            "Counter"
+          ]
+        },
+        {
+          "source": "pathlib",
+          "specifiers": [
+            "Path"
+          ]
+        }
+      ],
+      "exports": [
+        "normalize_raw_path",
+        "infer_subject_id",
+        "load_records",
+        "copy_public_eeg",
+        "write_csv",
+        "collect_unmatched_videos",
+        "write_summary",
+        "main"
+      ],
+      "totalLines": 163,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/tools/runtime.py": {
+      "filePath": "neuromm26_baseline/tools/runtime.py",
+      "contentHash": "41955c14feadac36eb3f9bc6d2ef947610364d4fd6f1c4c7dbba7663cec2d931",
+      "functions": [
+        {
+          "name": "resolve_device",
+          "params": [
+            "device_name"
+          ],
+          "returnType": "torch.device",
+          "exported": true,
+          "lineCount": 4
+        },
+        {
+          "name": "resolve_split_csv",
+          "params": [
+            "dataset_root",
+            "split"
+          ],
+          "returnType": "str",
+          "exported": true,
+          "lineCount": 2
+        },
+        {
+          "name": "resolve_annotation_manifest",
+          "params": [
+            "config"
+          ],
+          "returnType": "str | None",
+          "exported": true,
+          "lineCount": 5
+        },
+        {
+          "name": "build_dataset",
+          "params": [
+            "config",
+            "split"
+          ],
+          "exported": true,
+          "lineCount": 31
+        },
+        {
+          "name": "build_dataloader",
+          "params": [
+            "config",
+            "dataset",
+            "batch_size",
+            "shuffle"
+          ],
+          "returnType": "DataLoader",
+          "exported": true,
+          "lineCount": 14
+        },
+        {
+          "name": "build_model",
+          "params": [
+            "config"
+          ],
+          "exported": true,
+          "lineCount": 47
+        },
+        {
+          "name": "build_criterion",
+          "params": [
+            "config",
+            "labels"
+          ],
+          "exported": true,
+          "lineCount": 12
+        },
+        {
+          "name": "save_json",
+          "params": [
+            "data",
+            "path"
+          ],
+          "returnType": "str",
+          "exported": true,
+          "lineCount": 6
+        },
+        {
+          "name": "save_prediction_csv",
+          "params": [
+            "sample_ids",
+            "probabilities",
+            "labels",
+            "path"
+          ],
+          "returnType": "str",
+          "exported": true,
+          "lineCount": 15
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "csv",
+          "specifiers": [
+            "csv"
+          ]
+        },
+        {
+          "source": "json",
+          "specifiers": [
+            "json"
+          ]
+        },
+        {
+          "source": "pathlib",
+          "specifiers": [
+            "Path"
+          ]
+        },
+        {
+          "source": "typing",
+          "specifiers": [
+            "Any"
+          ]
+        },
+        {
+          "source": "torch",
+          "specifiers": [
+            "torch"
+          ]
+        },
+        {
+          "source": "torch",
+          "specifiers": [
+            "nn"
+          ]
+        },
+        {
+          "source": "torch.utils.data",
+          "specifiers": [
+            "DataLoader"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.datasets",
+          "specifiers": [
+            "EEGFeatureDataset",
+            "NeuroMMMultimodalFeatureDataset"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.datasets.collate_fn",
+          "specifiers": [
+            "neuromm_collate"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.models",
+          "specifiers": [
+            "EEGBaselineModel",
+            "EEGVideoFusionModel",
+            "build_legacy_eeg_model",
+            "is_legacy_eeg_model_name",
+            "normalize_model_name"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.utils.io",
+          "specifiers": [
+            "ensure_dir"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.utils.seed",
+          "specifiers": [
+            "build_torch_generator",
+            "seed_worker"
+          ]
+        }
+      ],
+      "exports": [
+        "resolve_device",
+        "resolve_split_csv",
+        "resolve_annotation_manifest",
+        "build_dataset",
+        "build_dataloader",
+        "build_model",
+        "build_criterion",
+        "save_json",
+        "save_prediction_csv"
+      ],
+      "totalLines": 182,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/tools/train.py": {
+      "filePath": "neuromm26_baseline/tools/train.py",
+      "contentHash": "e35bb2a93fa051598b9516c0ec0eebeb92b0f58409df8495c994926da5bc34ee",
+      "functions": [
+        {
+          "name": "_infer_task_type",
+          "params": [
+            "model_name"
+          ],
+          "returnType": "str | None",
+          "exported": true,
+          "lineCount": 7
+        },
+        {
+          "name": "_sanitize_token",
+          "params": [
+            "value"
+          ],
+          "returnType": "str",
+          "exported": true,
+          "lineCount": 3
+        },
+        {
+          "name": "_build_experiment_name",
+          "params": [
+            "base_name",
+            "args"
+          ],
+          "returnType": "str",
+          "exported": true,
+          "lineCount": 9
+        },
+        {
+          "name": "_collect_overrides",
+          "params": [
+            "args"
+          ],
+          "returnType": "dict[str, Any]",
+          "exported": true,
+          "lineCount": 23
+        },
+        {
+          "name": "main",
+          "params": [],
+          "returnType": "int",
+          "exported": true,
+          "lineCount": 121
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "argparse",
+          "specifiers": [
+            "argparse"
+          ]
+        },
+        {
+          "source": "pathlib",
+          "specifiers": [
+            "Path"
+          ]
+        },
+        {
+          "source": "typing",
+          "specifiers": [
+            "Any"
+          ]
+        },
+        {
+          "source": "torch",
+          "specifiers": [
+            "torch"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.models",
+          "specifiers": [
+            "SUPPORTED_MODEL_NAMES",
+            "normalize_model_name"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.trainers.trainer",
+          "specifiers": [
+            "Trainer"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.utils.config",
+          "specifiers": [
+            "apply_overrides",
+            "load_config",
+            "parse_override_strings"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.utils.io",
+          "specifiers": [
+            "ensure_dir"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.utils.logger",
+          "specifiers": [
+            "get_logger"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.utils.metrics",
+          "specifiers": [
+            "format_metric_summary"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.utils.seed",
+          "specifiers": [
+            "set_seed"
+          ]
+        },
+        {
+          "source": ".runtime",
+          "specifiers": [
+            "build_criterion",
+            "build_dataloader",
+            "build_dataset",
+            "build_model",
+            "resolve_device",
+            "save_json"
+          ]
+        }
+      ],
+      "exports": [
+        "_infer_task_type",
+        "_sanitize_token",
+        "_build_experiment_name",
+        "_collect_overrides",
+        "main"
+      ],
+      "totalLines": 197,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/tools/train_eeg_video_fusion.py": {
+      "filePath": "neuromm26_baseline/tools/train_eeg_video_fusion.py",
+      "contentHash": "b2a1802b8a5dc35428220dafad86ffb78f9de2ad4708848bfda2675640c8464c",
+      "functions": [
+        {
+          "name": "detect_video_feature_dim",
+          "params": [
+            "video_feature_root",
+            "video_feature_name"
+          ],
+          "returnType": "int",
+          "exported": true,
+          "lineCount": 10
+        },
+        {
+          "name": "build_loaders",
+          "params": [
+            "train_val_manifest",
+            "test_manifest",
+            "test_split",
+            "eeg_feature_root",
+            "video_feature_root",
+            "video_feature_name",
+            "eeg_target_shape",
+            "batch_size",
+            "eval_batch_size",
+            "seed"
+          ],
+          "exported": true,
+          "lineCount": 73
+        },
+        {
+          "name": "main",
+          "params": [],
+          "returnType": "int",
+          "exported": true,
+          "lineCount": 200
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "argparse",
+          "specifiers": [
+            "argparse"
+          ]
+        },
+        {
+          "source": "csv",
+          "specifiers": [
+            "csv"
+          ]
+        },
+        {
+          "source": "json",
+          "specifiers": [
+            "json"
+          ]
+        },
+        {
+          "source": "pathlib",
+          "specifiers": [
+            "Path"
+          ]
+        },
+        {
+          "source": "typing",
+          "specifiers": [
+            "Any"
+          ]
+        },
+        {
+          "source": "numpy",
+          "specifiers": [
+            "np"
+          ]
+        },
+        {
+          "source": "torch",
+          "specifiers": [
+            "torch"
+          ]
+        },
+        {
+          "source": "torch",
+          "specifiers": [
+            "nn"
+          ]
+        },
+        {
+          "source": "torch.utils.data",
+          "specifiers": [
+            "DataLoader"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.datasets",
+          "specifiers": [
+            "NeuroMMMultimodalFeatureDataset"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.datasets.collate_fn",
+          "specifiers": [
+            "neuromm_collate"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.models.multimodal_late_fusion",
+          "specifiers": [
+            "EEGVideoLateFusion"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.trainers.evaluator",
+          "specifiers": [
+            "Evaluator"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.utils.io",
+          "specifiers": [
+            "ensure_dir"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.utils.logger",
+          "specifiers": [
+            "get_logger"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.utils.metrics",
+          "specifiers": [
+            "format_metric_summary",
+            "order_metric_dict"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.utils.seed",
+          "specifiers": [
+            "build_torch_generator",
+            "seed_worker",
+            "set_seed"
+          ]
+        }
+      ],
+      "exports": [
+        "detect_video_feature_dim",
+        "build_loaders",
+        "main"
+      ],
+      "totalLines": 335,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/tools/train_task3_eeg.py": {
+      "filePath": "neuromm26_baseline/tools/train_task3_eeg.py",
+      "contentHash": "fdd470fffaad5e25feaecd2ab16cdaecbb40601f4c0ebd8afe2541a17fb5f5c9",
+      "functions": [
+        {
+          "name": "main",
+          "params": [],
+          "returnType": "int",
+          "exported": true,
+          "lineCount": 176
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "argparse",
+          "specifiers": [
+            "argparse"
+          ]
+        },
+        {
+          "source": "json",
+          "specifiers": [
+            "json"
+          ]
+        },
+        {
+          "source": "pathlib",
+          "specifiers": [
+            "Path"
+          ]
+        },
+        {
+          "source": "torch",
+          "specifiers": [
+            "torch"
+          ]
+        },
+        {
+          "source": "torch",
+          "specifiers": [
+            "nn"
+          ]
+        },
+        {
+          "source": "torch.utils.data",
+          "specifiers": [
+            "DataLoader"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.datasets.task3_datasets",
+          "specifiers": [
+            "Task3EEGFeatureDataset"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.datasets.collate_fn",
+          "specifiers": [
+            "neuromm_collate"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.models.legacy.registry_task3",
+          "specifiers": [
+            "build_legacy_eeg_model_with_num_classes"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.utils.io",
+          "specifiers": [
+            "ensure_dir"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.utils.logger",
+          "specifiers": [
+            "get_logger"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.utils.multiclass_metrics",
+          "specifiers": [
+            "format_multiclass_summary"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.utils.seed",
+          "specifiers": [
+            "build_torch_generator",
+            "set_seed"
+          ]
+        },
+        {
+          "source": "._task3_runtime",
+          "specifiers": [
+            "class_balanced_weights",
+            "evaluate_multiclass",
+            "move_to",
+            "save_json",
+            "save_predictions_csv"
+          ]
+        }
+      ],
+      "exports": [
+        "main"
+      ],
+      "totalLines": 222,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/tools/train_task3_fusion.py": {
+      "filePath": "neuromm26_baseline/tools/train_task3_fusion.py",
+      "contentHash": "5f7189dcad4aa4a010822955ebeac2600d726961cce526e57afed54638f6bc99",
+      "functions": [
+        {
+          "name": "detect_video_feature_dim",
+          "params": [
+            "video_feature_root",
+            "video_feature_name"
+          ],
+          "returnType": "int",
+          "exported": true,
+          "lineCount": 7
+        },
+        {
+          "name": "main",
+          "params": [],
+          "returnType": "int",
+          "exported": true,
+          "lineCount": 203
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "argparse",
+          "specifiers": [
+            "argparse"
+          ]
+        },
+        {
+          "source": "pathlib",
+          "specifiers": [
+            "Path"
+          ]
+        },
+        {
+          "source": "numpy",
+          "specifiers": [
+            "np"
+          ]
+        },
+        {
+          "source": "torch",
+          "specifiers": [
+            "torch"
+          ]
+        },
+        {
+          "source": "torch",
+          "specifiers": [
+            "nn"
+          ]
+        },
+        {
+          "source": "torch.utils.data",
+          "specifiers": [
+            "DataLoader"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.datasets.task3_datasets",
+          "specifiers": [
+            "Task3MultimodalFeatureDataset"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.datasets.collate_fn",
+          "specifiers": [
+            "neuromm_collate"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.models.multiclass_late_fusion",
+          "specifiers": [
+            "EEGVideoLateFusion5Class"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.utils.io",
+          "specifiers": [
+            "ensure_dir"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.utils.logger",
+          "specifiers": [
+            "get_logger"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.utils.multiclass_metrics",
+          "specifiers": [
+            "format_multiclass_summary"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.utils.seed",
+          "specifiers": [
+            "build_torch_generator",
+            "set_seed"
+          ]
+        },
+        {
+          "source": "._task3_runtime",
+          "specifiers": [
+            "class_balanced_weights",
+            "evaluate_multiclass",
+            "move_to",
+            "save_json",
+            "save_predictions_csv"
+          ]
+        }
+      ],
+      "exports": [
+        "detect_video_feature_dim",
+        "main"
+      ],
+      "totalLines": 246,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/tools/train_task3_video_mlp.py": {
+      "filePath": "neuromm26_baseline/tools/train_task3_video_mlp.py",
+      "contentHash": "75c08d0c069ddf9cb1abb19d56d131b49849e5e0ab80f233623f31a2949ea658",
+      "functions": [
+        {
+          "name": "_collate",
+          "params": [
+            "batch"
+          ],
+          "exported": true,
+          "lineCount": 6
+        },
+        {
+          "name": "main",
+          "params": [],
+          "returnType": "int",
+          "exported": true,
+          "lineCount": 178
+        }
+      ],
+      "classes": [
+        {
+          "name": "MLP5",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 12
+        }
+      ],
+      "imports": [
+        {
+          "source": "argparse",
+          "specifiers": [
+            "argparse"
+          ]
+        },
+        {
+          "source": "pathlib",
+          "specifiers": [
+            "Path"
+          ]
+        },
+        {
+          "source": "torch",
+          "specifiers": [
+            "torch"
+          ]
+        },
+        {
+          "source": "torch",
+          "specifiers": [
+            "nn"
+          ]
+        },
+        {
+          "source": "torch.utils.data",
+          "specifiers": [
+            "DataLoader"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.datasets.task3_datasets",
+          "specifiers": [
+            "Task3VideoFeatureDataset"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.utils.io",
+          "specifiers": [
+            "ensure_dir"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.utils.logger",
+          "specifiers": [
+            "get_logger"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.utils.multiclass_metrics",
+          "specifiers": [
+            "format_multiclass_summary"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.utils.seed",
+          "specifiers": [
+            "set_seed"
+          ]
+        },
+        {
+          "source": "._task3_runtime",
+          "specifiers": [
+            "class_balanced_weights",
+            "evaluate_multiclass",
+            "move_to",
+            "save_json",
+            "save_predictions_csv"
+          ]
+        }
+      ],
+      "exports": [
+        "_collate",
+        "MLP5",
+        "main"
+      ],
+      "totalLines": 231,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/tools/train_video_feature_mlp.py": {
+      "filePath": "neuromm26_baseline/tools/train_video_feature_mlp.py",
+      "contentHash": "0b62c747f08e9de76eae1cf8d930a857451dde043071e1c795183225c56738d9",
+      "functions": [
+        {
+          "name": "_collate",
+          "params": [
+            "batch"
+          ],
+          "returnType": "dict[str, Any]",
+          "exported": true,
+          "lineCount": 6
+        },
+        {
+          "name": "_evaluate",
+          "params": [
+            "model",
+            "loader",
+            "device"
+          ],
+          "exported": true,
+          "lineCount": 14
+        },
+        {
+          "name": "main",
+          "params": [],
+          "returnType": "int",
+          "exported": true,
+          "lineCount": 176
+        }
+      ],
+      "classes": [
+        {
+          "name": "VideoFeatureDataset",
+          "methods": [
+            "__init__",
+            "__len__",
+            "__getitem__"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 52
+        },
+        {
+          "name": "MLPHead",
+          "methods": [
+            "__init__",
+            "forward"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 12
+        }
+      ],
+      "imports": [
+        {
+          "source": "argparse",
+          "specifiers": [
+            "argparse"
+          ]
+        },
+        {
+          "source": "csv",
+          "specifiers": [
+            "csv"
+          ]
+        },
+        {
+          "source": "json",
+          "specifiers": [
+            "json"
+          ]
+        },
+        {
+          "source": "pathlib",
+          "specifiers": [
+            "Path"
+          ]
+        },
+        {
+          "source": "typing",
+          "specifiers": [
+            "Any"
+          ]
+        },
+        {
+          "source": "numpy",
+          "specifiers": [
+            "np"
+          ]
+        },
+        {
+          "source": "torch",
+          "specifiers": [
+            "torch"
+          ]
+        },
+        {
+          "source": "torch",
+          "specifiers": [
+            "nn"
+          ]
+        },
+        {
+          "source": "torch.utils.data",
+          "specifiers": [
+            "DataLoader",
+            "Dataset"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.utils.io",
+          "specifiers": [
+            "ensure_dir"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.utils.logger",
+          "specifiers": [
+            "get_logger"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.utils.metrics",
+          "specifiers": [
+            "compute_binary_classification_metrics",
+            "format_metric_summary",
+            "order_metric_dict"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.utils.seed",
+          "specifiers": [
+            "set_seed"
+          ]
+        }
+      ],
+      "exports": [
+        "VideoFeatureDataset",
+        "_collate",
+        "MLPHead",
+        "_evaluate",
+        "main"
+      ],
+      "totalLines": 316,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/trainers/__init__.py": {
+      "filePath": "neuromm26_baseline/trainers/__init__.py",
+      "contentHash": "a3c11c993f1c92b5fc0b45ec6f44a832120d77a46c8f98f07c5e7578d43df36c",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 2,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/trainers/evaluator.py": {
+      "filePath": "neuromm26_baseline/trainers/evaluator.py",
+      "contentHash": "af790838046bad26e1d3fab4d2d6aa4dc24eef3ead1498f806cc45001ba611c2",
+      "functions": [],
+      "classes": [
+        {
+          "name": "EvaluationResult",
+          "methods": [],
+          "properties": [
+            "loss",
+            "metrics",
+            "sample_ids",
+            "probabilities",
+            "labels"
+          ],
+          "exported": true,
+          "lineCount": 6
+        },
+        {
+          "name": "Evaluator",
+          "methods": [
+            "__init__",
+            "_move_batch",
+            "evaluate"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 49
+        }
+      ],
+      "imports": [
+        {
+          "source": "dataclasses",
+          "specifiers": [
+            "dataclass"
+          ]
+        },
+        {
+          "source": "typing",
+          "specifiers": [
+            "Any"
+          ]
+        },
+        {
+          "source": "torch",
+          "specifiers": [
+            "torch"
+          ]
+        },
+        {
+          "source": "torch.utils.data",
+          "specifiers": [
+            "DataLoader"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.utils.metrics",
+          "specifiers": [
+            "compute_binary_classification_metrics"
+          ]
+        }
+      ],
+      "exports": [
+        "EvaluationResult",
+        "Evaluator"
+      ],
+      "totalLines": 72,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/trainers/inference.py": {
+      "filePath": "neuromm26_baseline/trainers/inference.py",
+      "contentHash": "ff61416982bb794c6f15e24a2a4fb7ba50afd43a97657e8232a7b6a84c5cf84d",
+      "functions": [],
+      "classes": [
+        {
+          "name": "InferenceRunner",
+          "methods": [
+            "__init__",
+            "run"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 13
+        }
+      ],
+      "imports": [
+        {
+          "source": "csv",
+          "specifiers": [
+            "csv"
+          ]
+        },
+        {
+          "source": "pathlib",
+          "specifiers": [
+            "Path"
+          ]
+        },
+        {
+          "source": ".evaluator",
+          "specifiers": [
+            "Evaluator"
+          ]
+        }
+      ],
+      "exports": [
+        "InferenceRunner"
+      ],
+      "totalLines": 24,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/trainers/trainer.py": {
+      "filePath": "neuromm26_baseline/trainers/trainer.py",
+      "contentHash": "b53891c811d01d65cd78c2d330f2e24562c45a2026c7adbe24aaa2aa6fbfeabe",
+      "functions": [],
+      "classes": [
+        {
+          "name": "TrainResult",
+          "methods": [],
+          "properties": [
+            "best_metric_name",
+            "best_metric_value",
+            "best_metrics",
+            "best_checkpoint_path"
+          ],
+          "exported": true,
+          "lineCount": 5
+        },
+        {
+          "name": "Trainer",
+          "methods": [
+            "__init__",
+            "_move_batch",
+            "train_epoch",
+            "fit"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 119
+        }
+      ],
+      "imports": [
+        {
+          "source": "dataclasses",
+          "specifiers": [
+            "dataclass"
+          ]
+        },
+        {
+          "source": "pathlib",
+          "specifiers": [
+            "Path"
+          ]
+        },
+        {
+          "source": "typing",
+          "specifiers": [
+            "Any"
+          ]
+        },
+        {
+          "source": "torch",
+          "specifiers": [
+            "torch"
+          ]
+        },
+        {
+          "source": "torch.utils.data",
+          "specifiers": [
+            "DataLoader"
+          ]
+        },
+        {
+          "source": "neuromm26_baseline.utils.metrics",
+          "specifiers": [
+            "PRIMARY_SELECTION_METRIC"
+          ]
+        },
+        {
+          "source": ".evaluator",
+          "specifiers": [
+            "Evaluator"
+          ]
+        }
+      ],
+      "exports": [
+        "TrainResult",
+        "Trainer"
+      ],
+      "totalLines": 144,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/utils/__init__.py": {
+      "filePath": "neuromm26_baseline/utils/__init__.py",
+      "contentHash": "bd3ce9cc0870670869f7177348df7949699fd36aa0c3b02c73450b5c6e1a1289",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 2,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/utils/config.py": {
+      "filePath": "neuromm26_baseline/utils/config.py",
+      "contentHash": "33258a82ebed28bda7480d86b4ed5c0a21cd87c02c0a53be299d89828e7498cc",
+      "functions": [
+        {
+          "name": "_load_dotenv",
+          "params": [
+            "dotenv_path"
+          ],
+          "returnType": "None",
+          "exported": true,
+          "lineCount": 11
+        },
+        {
+          "name": "_deep_merge",
+          "params": [
+            "base",
+            "override"
+          ],
+          "returnType": "dict[str, Any]",
+          "exported": true,
+          "lineCount": 8
+        },
+        {
+          "name": "_read_yaml",
+          "params": [
+            "path"
+          ],
+          "returnType": "dict[str, Any]",
+          "exported": true,
+          "lineCount": 3
+        },
+        {
+          "name": "_resolve_config",
+          "params": [
+            "path"
+          ],
+          "returnType": "dict[str, Any]",
+          "exported": true,
+          "lineCount": 11
+        },
+        {
+          "name": "_parse_override_value",
+          "params": [
+            "raw_value"
+          ],
+          "returnType": "Any",
+          "exported": true,
+          "lineCount": 2
+        },
+        {
+          "name": "_set_nested_value",
+          "params": [
+            "config",
+            "dotted_key",
+            "value"
+          ],
+          "returnType": "None",
+          "exported": true,
+          "lineCount": 13
+        },
+        {
+          "name": "parse_override_strings",
+          "params": [
+            "items"
+          ],
+          "returnType": "dict[str, Any]",
+          "exported": true,
+          "lineCount": 8
+        },
+        {
+          "name": "apply_overrides",
+          "params": [
+            "config",
+            "overrides"
+          ],
+          "returnType": "dict[str, Any]",
+          "exported": true,
+          "lineCount": 4
+        },
+        {
+          "name": "load_config",
+          "params": [
+            "path"
+          ],
+          "returnType": "dict[str, Any]",
+          "exported": true,
+          "lineCount": 29
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "os",
+          "specifiers": [
+            "os"
+          ]
+        },
+        {
+          "source": "pathlib",
+          "specifiers": [
+            "Path"
+          ]
+        },
+        {
+          "source": "typing",
+          "specifiers": [
+            "Any"
+          ]
+        },
+        {
+          "source": "yaml",
+          "specifiers": [
+            "yaml"
+          ]
+        }
+      ],
+      "exports": [
+        "_load_dotenv",
+        "_deep_merge",
+        "_read_yaml",
+        "_resolve_config",
+        "_parse_override_value",
+        "_set_nested_value",
+        "parse_override_strings",
+        "apply_overrides",
+        "load_config"
+      ],
+      "totalLines": 120,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/utils/io.py": {
+      "filePath": "neuromm26_baseline/utils/io.py",
+      "contentHash": "a108af486569db83d1f8f4b0c51a3d0a8e5e714a6d4d9cc02dc9ae8926aebf0d",
+      "functions": [
+        {
+          "name": "ensure_dir",
+          "params": [
+            "path"
+          ],
+          "returnType": "Path",
+          "exported": true,
+          "lineCount": 4
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "pathlib",
+          "specifiers": [
+            "Path"
+          ]
+        }
+      ],
+      "exports": [
+        "ensure_dir"
+      ],
+      "totalLines": 12,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/utils/logger.py": {
+      "filePath": "neuromm26_baseline/utils/logger.py",
+      "contentHash": "4741e6be78f2707e6af450b1afb0a992ade85babe1dd72c80f96cf676da16277",
+      "functions": [
+        {
+          "name": "get_logger",
+          "params": [
+            "name",
+            "log_file"
+          ],
+          "returnType": "logging.Logger",
+          "exported": true,
+          "lineCount": 21
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "logging",
+          "specifiers": [
+            "logging"
+          ]
+        },
+        {
+          "source": "pathlib",
+          "specifiers": [
+            "Path"
+          ]
+        }
+      ],
+      "exports": [
+        "get_logger"
+      ],
+      "totalLines": 30,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/utils/metrics.py": {
+      "filePath": "neuromm26_baseline/utils/metrics.py",
+      "contentHash": "7d8b346024988ec073593f5b402caa82927a0fb1bfccbc36b8d6e0240d821d04",
+      "functions": [
+        {
+          "name": "_safe_divide",
+          "params": [
+            "numerator",
+            "denominator"
+          ],
+          "returnType": "float",
+          "exported": true,
+          "lineCount": 2
+        },
+        {
+          "name": "_f1_score",
+          "params": [
+            "tp",
+            "fp",
+            "fn"
+          ],
+          "returnType": "float",
+          "exported": true,
+          "lineCount": 4
+        },
+        {
+          "name": "_compute_auprc",
+          "params": [
+            "probs",
+            "targets"
+          ],
+          "returnType": "float",
+          "exported": true,
+          "lineCount": 27
+        },
+        {
+          "name": "order_metric_dict",
+          "params": [
+            "metrics"
+          ],
+          "returnType": "dict[str, Any]",
+          "exported": true,
+          "lineCount": 9
+        },
+        {
+          "name": "format_metric_summary",
+          "params": [
+            "metrics"
+          ],
+          "returnType": "str",
+          "exported": true,
+          "lineCount": 7
+        },
+        {
+          "name": "compute_binary_classification_metrics",
+          "params": [
+            "logits",
+            "targets"
+          ],
+          "returnType": "dict[str, Any]",
+          "exported": true,
+          "lineCount": 39
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "typing",
+          "specifiers": [
+            "Any"
+          ]
+        },
+        {
+          "source": "numpy",
+          "specifiers": [
+            "np"
+          ]
+        },
+        {
+          "source": "torch",
+          "specifiers": [
+            "torch"
+          ]
+        }
+      ],
+      "exports": [
+        "_safe_divide",
+        "_f1_score",
+        "_compute_auprc",
+        "order_metric_dict",
+        "format_metric_summary",
+        "compute_binary_classification_metrics"
+      ],
+      "totalLines": 131,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/utils/multiclass_metrics.py": {
+      "filePath": "neuromm26_baseline/utils/multiclass_metrics.py",
+      "contentHash": "b7b68f0ff0147a31181e4e72d5e3632850efb73370a8f7f923700aab3c44f85d",
+      "functions": [
+        {
+          "name": "_safe_div",
+          "params": [
+            "num",
+            "den"
+          ],
+          "returnType": "float",
+          "exported": true,
+          "lineCount": 2
+        },
+        {
+          "name": "compute_multiclass_metrics",
+          "params": [
+            "logits",
+            "labels",
+            "num_classes"
+          ],
+          "returnType": "dict[str, Any]",
+          "exported": true,
+          "lineCount": 65
+        },
+        {
+          "name": "order_multiclass_metrics",
+          "params": [
+            "metrics"
+          ],
+          "returnType": "dict[str, Any]",
+          "exported": true,
+          "lineCount": 9
+        },
+        {
+          "name": "format_multiclass_summary",
+          "params": [
+            "metrics"
+          ],
+          "returnType": "str",
+          "exported": true,
+          "lineCount": 6
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "typing",
+          "specifiers": [
+            "Any"
+          ]
+        },
+        {
+          "source": "numpy",
+          "specifiers": [
+            "np"
+          ]
+        },
+        {
+          "source": "torch",
+          "specifiers": [
+            "torch"
+          ]
+        }
+      ],
+      "exports": [
+        "_safe_div",
+        "compute_multiclass_metrics",
+        "order_multiclass_metrics",
+        "format_multiclass_summary"
+      ],
+      "totalLines": 120,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/utils/seed.py": {
+      "filePath": "neuromm26_baseline/utils/seed.py",
+      "contentHash": "b597f51a043bb2d1aa9c256f02df773adf7a94409006b65b21cc394124c497e7",
+      "functions": [
+        {
+          "name": "seed_worker",
+          "params": [
+            "worker_id"
+          ],
+          "returnType": "None",
+          "exported": true,
+          "lineCount": 5
+        },
+        {
+          "name": "build_torch_generator",
+          "params": [
+            "seed"
+          ],
+          "returnType": "torch.Generator",
+          "exported": true,
+          "lineCount": 4
+        },
+        {
+          "name": "set_seed",
+          "params": [
+            "seed",
+            "deterministic"
+          ],
+          "returnType": "None",
+          "exported": true,
+          "lineCount": 20
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "os",
+          "specifiers": [
+            "os"
+          ]
+        },
+        {
+          "source": "random",
+          "specifiers": [
+            "random"
+          ]
+        },
+        {
+          "source": "numpy",
+          "specifiers": [
+            "np"
+          ]
+        },
+        {
+          "source": "torch",
+          "specifiers": [
+            "torch"
+          ]
+        }
+      ],
+      "exports": [
+        "seed_worker",
+        "build_torch_generator",
+        "set_seed"
+      ],
+      "totalLines": 45,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/utils/visualization.py": {
+      "filePath": "neuromm26_baseline/utils/visualization.py",
+      "contentHash": "c3fa76d2ad6038372c1295da85ab36f6d4567d7b74c527f7ecc865a05f9cb64f",
+      "functions": [
+        {
+          "name": "render_summary",
+          "params": [
+            "data"
+          ],
+          "exported": true,
+          "lineCount": 2
+        }
+      ],
+      "classes": [],
+      "imports": [],
+      "exports": [
+        "render_summary"
+      ],
+      "totalLines": 6,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_baseline/version.py": {
+      "filePath": "neuromm26_baseline/version.py",
+      "contentHash": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 2,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_datasets/README.md": {
+      "filePath": "neuromm26_datasets/README.md",
+      "contentHash": "6bd23e0953992a401d93c8547cde9457e1fab441795dc681c3703e71b9dd2939",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 20,
+      "hasStructuralAnalysis": true
+    },
+    "neuromm26_datasets/annotations/neuromm2026_train_val_patient_split.csv": {
+      "filePath": "neuromm26_datasets/annotations/neuromm2026_train_val_patient_split.csv",
+      "contentHash": "5b74c16a4144d693bd54b8e9c477436e642326acaa85d9bbaeda88caf0b7632b",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 25428,
+      "hasStructuralAnalysis": false
+    },
+    "requirements.txt": {
+      "filePath": "requirements.txt",
+      "contentHash": "d5611294d5e9e912a4f04de46aedc97878fa5ee48ee3db9f0d1620a55191585d",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 6,
+      "hasStructuralAnalysis": false
+    },
+    "scripts/aggregate_results.py": {
+      "filePath": "scripts/aggregate_results.py",
+      "contentHash": "cd9ba2e2640d29099bc0cce05d3d09ff7036de06105ffda8624dfca39d97a63c",
+      "functions": [
+        {
+          "name": "discover_summaries",
+          "params": [
+            "metrics_dir",
+            "seeds"
+          ],
+          "returnType": "dict[tuple[str, float], list[dict]]",
+          "exported": true,
+          "lineCount": 15
+        },
+        {
+          "name": "aggregate",
+          "params": [
+            "groups"
+          ],
+          "returnType": "list[dict]",
+          "exported": true,
+          "lineCount": 27
+        },
+        {
+          "name": "print_table",
+          "params": [
+            "rows"
+          ],
+          "returnType": "None",
+          "exported": true,
+          "lineCount": 38
+        },
+        {
+          "name": "save_csv",
+          "params": [
+            "rows",
+            "output_path"
+          ],
+          "returnType": "None",
+          "exported": true,
+          "lineCount": 16
+        },
+        {
+          "name": "main",
+          "params": [],
+          "returnType": "int",
+          "exported": true,
+          "lineCount": 33
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "argparse",
+          "specifiers": [
+            "argparse"
+          ]
+        },
+        {
+          "source": "csv",
+          "specifiers": [
+            "csv"
+          ]
+        },
+        {
+          "source": "json",
+          "specifiers": [
+            "json"
+          ]
+        },
+        {
+          "source": "collections",
+          "specifiers": [
+            "defaultdict"
+          ]
+        },
+        {
+          "source": "pathlib",
+          "specifiers": [
+            "Path"
+          ]
+        },
+        {
+          "source": "numpy",
+          "specifiers": [
+            "np"
+          ]
+        }
+      ],
+      "exports": [
+        "discover_summaries",
+        "aggregate",
+        "print_table",
+        "save_csv",
+        "main"
+      ],
+      "totalLines": 160,
+      "hasStructuralAnalysis": true
+    },
+    "scripts/aggregate_task3_results.py": {
+      "filePath": "scripts/aggregate_task3_results.py",
+      "contentHash": "e27d861f53adf0bfa2e127ac30f2c842653ecf7f0a6d0f9ed660a3e1d0826553",
+      "functions": [
+        {
+          "name": "discover",
+          "params": [
+            "metrics_dir",
+            "kind",
+            "seeds"
+          ],
+          "exported": true,
+          "lineCount": 33
+        },
+        {
+          "name": "aggregate",
+          "params": [
+            "groups"
+          ],
+          "exported": true,
+          "lineCount": 17
+        },
+        {
+          "name": "print_table",
+          "params": [
+            "rows",
+            "title"
+          ],
+          "exported": true,
+          "lineCount": 26
+        },
+        {
+          "name": "save_csv",
+          "params": [
+            "rows",
+            "path"
+          ],
+          "exported": true,
+          "lineCount": 13
+        },
+        {
+          "name": "main",
+          "params": [],
+          "returnType": "int",
+          "exported": true,
+          "lineCount": 21
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "argparse",
+          "specifiers": [
+            "argparse"
+          ]
+        },
+        {
+          "source": "csv",
+          "specifiers": [
+            "csv"
+          ]
+        },
+        {
+          "source": "json",
+          "specifiers": [
+            "json"
+          ]
+        },
+        {
+          "source": "collections",
+          "specifiers": [
+            "defaultdict"
+          ]
+        },
+        {
+          "source": "pathlib",
+          "specifiers": [
+            "Path"
+          ]
+        },
+        {
+          "source": "numpy",
+          "specifiers": [
+            "np"
+          ]
+        }
+      ],
+      "exports": [
+        "discover",
+        "aggregate",
+        "print_table",
+        "save_csv",
+        "main"
+      ],
+      "totalLines": 151,
+      "hasStructuralAnalysis": true
+    },
+    "scripts/eval.sh": {
+      "filePath": "scripts/eval.sh",
+      "contentHash": "1bfe5d145acaca17576ad07ca101ff1efa6090293b11cc4a9f66ba15b82e06ec",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 3,
+      "hasStructuralAnalysis": true
+    },
+    "scripts/extract_features.sh": {
+      "filePath": "scripts/extract_features.sh",
+      "contentHash": "4b8f3eb657898576efcb5ff35282f84f0412de058f4cd58fb3a3713f6547c1ce",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 3,
+      "hasStructuralAnalysis": true
+    },
+    "scripts/prepare_dataset.sh": {
+      "filePath": "scripts/prepare_dataset.sh",
+      "contentHash": "f9d9da481bb843ce56781f1f522c9c5d59bfc6bb3db78073a30964bea7ee949a",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 7,
+      "hasStructuralAnalysis": true
+    },
+    "scripts/run_baseline_batch.sh": {
+      "filePath": "scripts/run_baseline_batch.sh",
+      "contentHash": "3f99e4a712ef680ff3a40ecabb07db56bc4e6ec43083669a6beb7e10ebb75db5",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 114,
+      "hasStructuralAnalysis": true
+    },
+    "scripts/train.sh": {
+      "filePath": "scripts/train.sh",
+      "contentHash": "772a879db8e443a3c49b9d4d5e4b7bc9623bad9e3c25f67f21d62fe61a963dea",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 3,
+      "hasStructuralAnalysis": true
+    },
+    "setup.py": {
+      "filePath": "setup.py",
+      "contentHash": "bfc20f7626761056644661416f2a2fcbda1186e00d4b0841d66e735f3f1719d2",
+      "functions": [],
+      "classes": [],
+      "imports": [
+        {
+          "source": "setuptools",
+          "specifiers": [
+            "find_packages",
+            "setup"
+          ]
+        }
+      ],
+      "exports": [],
+      "totalLines": 10,
+      "hasStructuralAnalysis": true
+    }
+  }
+}
