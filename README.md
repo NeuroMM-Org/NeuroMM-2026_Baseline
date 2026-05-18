@@ -185,6 +185,61 @@ Outputs `neuromm26_results/metrics/<exp_name>_val.json` and `predictions/<exp_na
 
 ---
 
+## Generating a submission (candidate set)
+
+The official test is run as a **result-only** competition on Codabench. The
+organizers release a **candidate set** separately, laid out as:
+
+```
+<candidate-dir>/
+├── candidate_ids.txt              # one id per line
+├── eeg/<id>.npy                   # (29, 2000) float32        (Test 1/2)
+└── video/<backbone>/<id>.npy      # pre-extracted features    (Test 2/3)
+```
+
+Run your trained checkpoint over **every** id in `candidate_ids.txt` to
+produce a submission CSV (`sample_id,prediction`), then zip it as
+`prediction.csv` and upload to the matching Codabench competition. Only the
+official samples are scored; predicting every id is required.
+
+### Test 1 — EEG-only (binary, AUPRC)
+
+```bash
+python -m neuromm26_baseline.tools.predict_candidate_test1 \
+    --checkpoint neuromm26_results/checkpoints/<exp>/best.pt \
+    --config     neuromm26_results/metrics/<exp>_config.json \
+    --candidate-dir /path/to/candidate_set \
+    --out submission_test1.csv
+```
+
+### Test 2 — EEG + Video late fusion (binary, AUPRC)
+
+```bash
+python -m neuromm26_baseline.tools.predict_candidate_test2 \
+    --checkpoint neuromm26_results/checkpoints/<eeg_video_fusion_exp>/best.pt \
+    --candidate-dir /path/to/candidate_set \
+    --out submission_test2.csv
+```
+The EEG model and video backbone are read from the checkpoint; override with
+`--video-feature-name <name>` if needed.
+
+### Test 3 — 5-class seizure subtype (weighted F1)
+
+```bash
+python -m neuromm26_baseline.tools.predict_candidate_test3 \
+    --checkpoint neuromm26_results/checkpoints/<task3_exp>/best.pt \
+    --candidate-dir /path/to/candidate_set \
+    --out submission_test3.csv
+```
+Auto-detects EEG-only (`train_task3_eeg.py`) vs EEG+Video fusion
+(`train_task3_fusion.py`) from the checkpoint. `prediction` is the predicted
+seizure subtype in `{1,2,3,4,5}`.
+
+`--device cpu` works but is slow; predictions are batch-independent
+(`model.eval()` + `no_grad()`), so a larger `--batch-size` only changes speed.
+
+---
+
 ## Aggregation tutorial — view scores
 
 After running multiple seeds for the same model, summarize mean ± std:
@@ -241,7 +296,10 @@ neuromm26_baseline/
     ├── train_task3_video_mlp.py   # Task 3 video MLP
     ├── train_task3_fusion.py      # Task 3 fusion
     ├── eval.py                    # standalone evaluator
-    └── extract_features.py        # CLI for feature extraction
+    ├── extract_features.py        # CLI for feature extraction
+    ├── predict_candidate_test1.py # candidate-set submission (Test 1)
+    ├── predict_candidate_test2.py # candidate-set submission (Test 2)
+    └── predict_candidate_test3.py # candidate-set submission (Test 3)
 
 configs/                            # YAML configs (default + task-specific)
 scripts/                            # aggregators + helper shell wrappers
