@@ -9,11 +9,12 @@ Example:
         --checkpoint neuromm26_results/checkpoints/<exp>/best.pt \
         --config     neuromm26_results/metrics/<exp>_config.json \
         --candidate-dir /path/to/candidate_set \
-        --out submission_test1.csv
+        --out submission.csv
 
 `--config` is the resolved config JSON written next to the metrics during
 training (`neuromm26_results/metrics/<exp>_config.json`). Submit the CSV
-inside a zip as `prediction.csv`.
+as `submission.csv`, then zip it as `sample_submission.zip` (the ZIP must
+contain exactly one file named `submission.csv`).
 """
 from __future__ import annotations
 
@@ -37,7 +38,7 @@ def main() -> int:
                     help="resolved config JSON written during training "
                          "(neuromm26_results/metrics/<exp>_config.json)")
     ap.add_argument("--candidate-dir", required=True)
-    ap.add_argument("--out", default="submission_test1.csv")
+    ap.add_argument("--out", default="submission.csv")
     ap.add_argument("--batch-size", type=int, default=128)
     ap.add_argument("--device", default="cuda")
     args = ap.parse_args()

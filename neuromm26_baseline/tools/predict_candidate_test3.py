@@ -13,7 +13,7 @@ Example:
     python -m neuromm26_baseline.tools.predict_candidate_test3 \
         --checkpoint neuromm26_results/checkpoints/<task3_exp>/best.pt \
         --candidate-dir /path/to/candidate_set \
-        --out submission_test3.csv
+        --out submission.csv
 """
 from __future__ import annotations
 
@@ -44,7 +44,7 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--checkpoint", required=True)
     ap.add_argument("--candidate-dir", required=True)
-    ap.add_argument("--out", default="submission_test3.csv")
+    ap.add_argument("--out", default="submission.csv")
     ap.add_argument("--video-feature-name", default=None,
                     help="override the backbone stored in a fusion checkpoint")
     ap.add_argument("--batch-size", type=int, default=128)
